@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<title>Trang sản phẩm</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+	
+	<link rel="stylesheet" href="Resources/css/myStyle.css">   
+	<link rel="stylesheet" href="Resources/fontawesome/css/all.min.css">      
+    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+	<script src="Resources/js/myJS.js"></script>
+
+</head>  
+ 
+
+
+<!-- Body -->
+
+<body>
+    
+	<!-- Header -->
+	<div>
+		<!-- my-Header -->
+		<div class="my-head container-fluid">
+			<!-- Header-Top-Bar  -->
+			<div class="container d-flex justify-content-start align-items-start my-header">
+				<a href="index.html">
+					<img src="Resources/myImages/logo.png" alt="Logo" class="my-logo">
+				</a>
+				<form action="" class="d-inline-block my-form">
+					<div class="search row my-row">
+						<input type="text" placeholder="Bạn tìm gì..." class="my-search-text col-10">
+						<a class="btn btn-outline-primary col-2 my-search-button" style="height: 40px;">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</form>
+				<div class="my-header-right d-flex justify-content-center align-items-center">
+					<a href="thongtinkhachang.html" class="ml-5 my-header-right-item my-header-right-item2 my-active"><strong>Huỳnh Ngọc Sơn</strong></a>  
+					<a href="thongtinkhachang.html" class="ml-2 mt-5 my-header-right-item my-header-right-item2 my-user-responsive">
+						<img src="Resources/myImages/user-s.png" alt="Huỳnh Ngọc Sơn" style="width: 40px;top: 25px;position: absolute;" >
+					</a> 
+					<a href="login.html" class="ml-5 my-header-right-item my-header-right-item2 my-res-a my-active"><strong>Đăng xuất</strong></a>
+					<a href="login.html" class="ml-2 mt-5 my-header-right-item my-header-right-item2 my-res-a my-user-responsive" >
+						<img src="Resources/myImages/user-s-logout.png" alt="Huỳnh Ngọc Sơn" class="ml-1" style="width: 40px;top: 25px;position: absolute;">
+					</a>
+					<a href="giohang.html" class="ml-5 my-header-right-item my-giohang my-lg">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Giỏ hàng
+						<span class="badge badge-danger my-no">4</span>
+					</a>
+					<a href="giohang.html" class="ml-2 my-header-right-item my-giohang my-sm my-res-a" style="margin-right: 15px;margin-top:20px;">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true" style="right:5px;" ></i> 
+						<span class="badge badge-danger my-no">4</span>
+					</a>
+				</div>
+			</div>
+			<!-- //Header-Top-Bar  -->
+
+
+			<!-- Navigation --> 
+			<div class="d-flex justify-content-center align-items-center Navigation"> 
+				<ul class="my-nav d-flex justify-content-center my-nav-temp" id="my-navs">
+					<li class="my-active">
+						<a href="index.html">TRANG CHỦ</a>
+					</li> 
+					<li class="my-parent-2">
+						<a href="sanpham.html">SẢN PHẨM <span></span></a>
+						<div class="my-dropdow">
+							<ul>
+								<li>
+									<a href="sanpham.html" class="li2">ĐIỆN THOẠI</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">LAPTOP</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">TABLET</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">SMART WATCH</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="my-parent-2">
+						<a href="phukien.html">PHỤ KIỆN</a>
+						<div class="my-dropdow">
+							<ul>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN ĐIỆN THOẠI</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN LAPTOP</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN TABLET</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN SMART WATCH</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="gioithieu.html">GIỚI THIỆU</a>
+					</li>
+					<li>
+						<a href="lienhe.html">LIÊN HỆ</a>
+					</li>
+				</ul>
+				<a href="javascript:void(0);" style="font-size: 50px;" class="icon" id="btn-toggle">&#9776;</a>
+			</div>
+			<!-- //Navigation -->
+			
+		</div>
+
+		<!-- end my-Header -->  
+
+	</div>
+	<!-- //Header --> 
+
+
+    <!-- Render body -->
+    <div class="container">         
+
+        <!-- Địa chỉ trang --> 
+        <ol class="dia-chi" style="background-color: white; font-size: 20px;">
+            <li><a href="index.html">Trang chủ</a></li> 
+            <li class="active">Thông tin cá nhân</li>  
+        </ol>   <br>
+        <!-- // Địa chỉ trang --> 
+        
+        <div class="row mt-0" style="margin-top: 20px !important;">
+            <div class="col-4" style="min-width: 18px; margin-bottom: 68px;">
+                <ul class="menu-items" style="box-shadow: 0px 0px 15px 0px #D6D6D6; padding: 10px;">
+                    <li id="as1">
+                        <a href="#s1" class="my-section">
+                            <div class="my-secsion-item"> 
+                                <img src="Resources/myImages/user-s.png" alt="" class="user-img">
+                                <p class="user-name my-active">Huỳnh Ngọc Sơn</p> 
+                            </div>
+                        </a>
+                    </li> 
+                    <li id="as2">
+                        <a href="#s2" class="my-section">
+                            <div class="my-secsion-item"> 
+                                <img src="Resources/myImages/icon-chuong.jpg" alt="" class="user-img">
+                                <p class="user-name">Thông báo của tôi</p> 
+                            </div>
+                        </a>
+                    </li> 
+                    <li id="as3">
+                        <a href="#s3" class="my-section">
+                            <div class="my-secsion-item"> 
+                                <img src="Resources/myImages/icon-don-hang.png" alt="" class="user-img">
+                                <p class="user-name">Quản lý đơn hàng</p> 
+                            </div>
+                        </a>
+                    </li> 
+                    <li id="as4">
+                        <a href="#s4" class="my-section">
+                            <div class="my-secsion-item"> 
+                                <img src="Resources/myImages/icon-dia-chi.png" alt="" class="user-img">
+                                <p class="user-name">Sổ địa chỉ</p> 
+                            </div>
+                        </a>
+                    </li> 
+                    <li id="as5">
+                        <a href="#s5" class="my-section">
+                            <div class="my-secsion-item"> 
+                                <img src="Resources/myImages/icon-da-xem.png" alt="" class="user-img">
+                                <p class="user-name">Sản phẩm đã xem</p> 
+                            </div>
+                        </a>
+                    </li> 
+                    <li id="as6">
+                        <a href="#s6" class="my-section">
+                            <div class="my-secsion-item"> 
+                                <img src="Resources/myImages/icon-yeu-thich.jpeg" alt="" class="user-img">
+                                <p class="user-name">Sản phẩm yêu thích</p> 
+                            </div>
+                        </a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="col-8 my-al" style="background-color: rgb(239, 239, 239);box-shadow: 0px 0px 15px 0px #D6D6D6;">
+                <div id="s1" class="p-5">
+                    <h1 class="title">Thông tin tài khoản</h1>
+                    <div style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);"> 
+                        <div class="my-group">
+                            <label for="name" class="col-lg-3 label-text">Họ tên:</label>
+                            <div class="col-lg-9">
+                                <input type="text" class="my-control w-100" id="name" value="Huỳnh Ngọc Sơn">
+                            </div>
+                        </div> 
+
+                        <div class="my-group">
+                            <label for="phone" class="col-lg-3 label-text">Số điện thoại:</label>
+                            <div class="col-lg-9">
+                                <input type="text" class="my-control w-100" id="phone" value="0351 521 032">
+                            </div>
+                        </div> 
+
+                        <div class="my-group">
+                            <label for="email" class="col-lg-3 label-text">Email:</label>
+                            <div class="col-lg-9">
+                                <input type="email" class="my-control w-100" id="email" value="nguyenvanthanh@gmail.com">
+                            </div>
+                        </div> 
+
+                        <div class="my-group">
+                            <label for="address" class="col-lg-3 label-text">Địa chỉ:</label>
+                            <div class="col-lg-9">
+                                <textarea class="my-control w-100" id="address" rows="3">ĐH Nông Lân, TP HCM( Nhà trọ sinh viên, đường số 1), Phường Linh Trung, Quận Thủ Đức, Hồ Chí Minh</textarea> 
+                            </div>
+                        </div> 
+
+                        <div class="my-group">
+                            <label for="address" class="col-lg-3 label-text">Giới tính:</label>
+                            <div class="col-lg-9 my-radio">
+                                <label for="nam" style="margin-right: 50px;"><input id="nam" type="radio" name="gt" class="mr-2" checked>Nam</label>
+                                <label for="nu"><input id="nu" type="radio" name="gt" class="mr-2">Nữ</label>
+                            </div>
+                        </div> 
+
+                        <div class="my-group">
+                            <label for="birthday" class="col-lg-3 label-text">Ngày sinh:</label>
+                            <div class="col-lg-9">
+                                <input type="date" class="my-control w-100" value="2000-07-29">
+                            </div>
+                        </div> 
+
+                        <div class="my-group pb-3">
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-9">
+                                <button class="btn btn-primary px-5 mt-3" style="font-size: 16px;">CẬP NHẬT</button>
+                            </div>
+                        </div>  
+
+                        
+
+                    </div>
+                </div>
+                <div id="s2" class="p-5">
+                    <h1 class="title">Thông báo của tôi</h1>
+                    <div class="thong-baos">
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-1">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-1"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ngay-thang">12/10/2020</span>
+                                        <i class="fa fa-bell" aria-hidden="true" style="font-size: 26px; color: green;"></i>
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            Hãy thay đổi mật khẩu thường xuyên để nâng cao bảo mật. Ngoài ra:  <br>
+                                            1) Không nên sử dụng chung mật khẩu của email với mật khẩu của các tài khoản khác. <br>
+                                            2) Luôn đăng xuất khỏi các tài khoản sau khi sử dụng trên thiết bị công cộng hoặc thiết bị không phải của bản thân.
+                                        </p>
+                                    </div>
+                                    <a href="javascript:void(0)" class="xem-chi-tiet">Xem chi tiết</a>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-1">
+                                <span>X</span>
+                            </button>
+                        </div> 
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-2">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-2"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ngay-thang">27/8/2020</span>
+                                        <i class="fa fa-gift" style="font-size: 26px; color: blue;"></i>
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            Apple Giảm Khủng 20% Duy Nhất Hôm Nay 30/8 - Số Lượng Có Hạn 
+                                        </p>
+                                    </div>
+                                    <a href="javascript:void(0)" class="xem-chi-tiet">Xem chi tiết</a>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-2">
+                                <span>X</span>
+                            </button>
+                        </div>  
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-3">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-1"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ngay-thang">27/7/2020</span>
+                                        <i class="fa fa-bell" aria-hidden="true" style="font-size: 26px; color: green"></i> 
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            Để mang đến trải nghiệm tốt nhất cho khách hàng, từ ngày 29/07/17, Tiki.vn điều chỉnh tỉ lệ quy đổi Tiki Xu từ 1:5 (1000 Tiki Xu tương ứng với 5000 VNĐ) thành 1:1 (1000 Tiki Xu tương ứng với 1000 VNĐ). Số Tiki Xu của quý khách sẽ được điều chỉnh x5 để có thể sử dụng theo tỉ lệ quy đổi mới, việc điều chỉnh dự kiến sẽ hoàn tất trong ngày 27 - 28/07/2017. Do đó, từ 17h30 ngày 27/07/17 đến 23h59 ngày 28/07/17 Tiki.vn xin phép tạm ngưng tính năng sử dụng Tiki Xu để bảo trì và nâng cấp hệ thống, Tiki.vn rất tiếc về sự bất tiện này, mong quý khách thông cảm Mọi thông tin thắc mắc, quý khách vui lòng liên hệ bộ phận Chăm Sóc Khách Hàng của Tiki.vn qua email hotro@tiki.vn, hotline 1900 6035 (8h - 21h, 1000đ/ phút). Trân trọng.
+                                        </p>
+                                    </div>
+                                    <a href="javascript:void(0)" class="xem-chi-tiet">Xem chi tiết</a>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-3">
+                                <span>X</span>
+                            </button>
+                        </div>
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-4">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-2"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ngay-thang">19/7/2020</span>
+                                        <i class="fa fa-gift" style="font-size: 26px; color: blue;"></i>
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            Black Friday Sale Sốc Hàng Công Nghệ Đã Mở - Săn Ngay! 
+                                        </p>
+                                    </div>
+                                    <a href="javascript:void(0)" class="xem-chi-tiet">Xem chi tiết</a>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-4">
+                                <span>X</span>
+                            </button>
+                        </div>   
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-5">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-2"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ngay-thang">10/6/2020</span>
+                                        <i class="fa fa-gift" style="font-size: 26px; color: blue;"></i>
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            Giảm ngay 300k khi mua ĐH trên 1,500 triệu. Số lượng cực kỳ có hạn 
+                                        </p>
+                                    </div>
+                                    <a href="javascript:void(0)" class="xem-chi-tiet">Xem chi tiết</a>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-5">
+                                <span>X</span>
+                            </button>
+                        </div>    
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-6">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-2"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ngay-thang">14/5/2020</span>
+                                        <i class="fa fa-gift" style="font-size: 26px; color: blue;"></i>
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            Từ 15/5/2020, Shop miễn phí giao tiêu chuẩn cho đơn hàng từ 250k, áp dụng phí 19k cho đơn hàng dưới 250k. Thay đổi áp dụng cho khách hàng không phải là thành viên Shop.
+                                        </p>
+                                    </div>
+                                    <a href="javascript:void(0)" class="xem-chi-tiet">Xem chi tiết</a>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-6">
+                                <span>X</span>
+                            </button>
+                        </div>   
+
+                    </div>
+                </div>
+                <div id="s3" class="p-5 ">
+                    <h1 class="title">Đơn hàng của tôi <span class="my-so-luong">(12)</span></h1>
+                    <div class="section-content">
+
+                        <table class="don-hangs">                            
+                            <tr>
+                                <th>ID</th>
+                                <th>Ngày mua   </th>
+                                <th>Sản phẩm   </th>
+                                <th>Tổng tiền  </th>
+                                <th>Trạng thái </th>
+                            </tr>
+                            <tr class="thanh-cong">
+                                <td>810512881                 </td>
+                                <td>27/05/2020                </td>
+                                <td><a href="chitietsanpham.html">Điện thoại iPhone 11 256GB</a></td>                                
+                                <td>23.990.000₫               </td>
+                                <td>Giao hàng thành công      </td>
+                            </tr>
+                            <tr class="bi-huy">
+                                <td>835382723                                                           </td>
+                                <td>01/06/2020                                                          </td>
+                                <td><a href="chitietsanpham.html">Laptop Dell Vostro 3590 i7 10510U/8GB/256GB/2GB 610R5/Win10 (GRMGK2)</a></td> 
+                                <td>20.290.000₫                                                         </td>
+                                <td>Đơn hàng bị huỷ                                                     </td>
+                            </tr>
+                            <tr class="thanh-cong">
+                                <td>684211971           </td>
+                                <td>25/06/2020          </td>
+                                <td><a href="chitietsanpham.html">Laptop HP 15s du1076TX i5 10210U/8GB/512GB/2GB MX130/Win10 (1R8E2PA)</a></td> 
+                                <td>17.490.000₫         </td>
+                                <td>Giao hàng thành công</td>
+                            </tr>
+                            <tr class="thanh-cong">
+                                <td>488174679</td>
+                                <td>17/08/2020</td>
+                                <td><a href="chitietsanpham.html">Apple Watch S5 40mm viền nhôm dây cao su</a></td> 
+                                <td>11.990.000₫</td>
+                                <td>Giao hàng thành công</td>
+                            </tr>
+                            <tr class="thanh-cong">
+                                <td>830909011</td>
+                                <td>17/08/2020</td>
+                                <td><a href="chitietsanpham.html">Samsung Galaxy Watch Active 2 44mm viền thép dây da</a></td> 
+                                <td>7.990.000₫</td>
+                                <td>Giao hàng thành công</td>
+                            </tr>
+                            <tr class="hoan-tra">
+                                <td>810512881                 </td>
+                                <td>27/05/2020                </td>
+                                <td><a href="chitietsanpham.html">Điện thoại iPhone 11 256GB</a></td> 
+                                <td>23.990.000₫               </td>
+                                <td>Hoàn trả hàng             </td>
+                            </tr>
+                            <tr class="thanh-cong">
+                                <td>835382723</td>
+                                <td>01/06/2020</td>
+                                <td><a href="chitietsanpham.html">Laptop Dell Vostro 3590 i7 10510U/8GB/256GB/2GB 610R5/Win10 (GRMGK2)</a></td> 
+                                <td>20.290.000₫</td>
+                                <td>Giao hàng thành công</td>
+                            </tr>
+                            <tr class="het-hang">
+                                <td>226145699                                </td>
+                                <td>22/09/2020                               </td>
+                                <td><a href="chitietsanpham.html">Máy tính bảng Lenovo Tab E10 TB-X104L Đen</a></td> 
+                                <td>3.190.000₫                               </td>
+                                <td>Hết hàng                                 </td>
+                            </tr>
+                            <tr class="thanh-cong">
+                                <td>684211971</td>
+                                <td>25/06/2020</td>
+                                <td><a href="chitietsanpham.html">Laptop HP 15s du1076TX i5 10210U/8GB/512GB/2GB MX130/Win10 (1R8E2PA)</a></td> 
+                                <td>17.490.000₫</td>
+                                <td>Giao hàng thành công</td>
+                            </tr>
+
+                            <tr class="thanh-cong">
+                                <td>488174679</td>
+                                <td>17/08/2020</td>
+                                <td><a href="chitietsanpham.html">Apple Watch S5 40mm viền nhôm dây cao su</a></td> 
+                                <td>11.990.000₫</td>
+                                <td>Giao hàng thành công</td>
+                            </tr>
+                            
+                        </table>                         
+                    </div> 
+                </div>
+                <div id="s4" class="p-5">
+                    <h1 class="title">Sổ địa chỉ</h1>
+                    <div class="thong-baos">                         
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-7">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-dia-chi"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ten-lead">Huỳnh Ngọc Sơn</span>
+                                        <i class="fa fa-check-circle-o text-success" aria-hidden="true" style="font-size: 14px;"></i> 
+                                        <span class="dia-chi-lead">Địa chỉ mặc định</span>
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            <span class="text-lead">Địa chỉ:</span>
+                                            ĐH Nông Lân, TP HCM( Nhà trọ sinh viên, đường số 1), Phường Linh Trung, Quận Thủ Đức, Hồ Chí Minh
+                                        </p>
+                                        <p>
+                                            <span class="text-lead">Điện thoại:</span>
+                                            0351 521 032
+                                        </p>
+                                    </div>
+                                    <div class="text-center"><a href="javascript:void(0)" class="cap-nhat">CẬP NHẬT</a></div>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-7">
+                                <span>X</span>
+                            </button>
+                        </div>                           
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-8">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-dia-chi"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ten-lead">Lê Diệu Nhi</span> 
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            <span class="text-lead">Địa chỉ:</span>
+                                            Số 2 Ngách 39 , Ngõ 178 Thái Hà , P. Trung Liệt, Q. Đống Đa, TP Hà Nội
+                                        </p>
+                                        <p>
+                                            <span class="text-lead">Điện thoại:</span>
+                                            0919 091 011
+                                        </p>
+                                    </div>
+                                    <div class="text-center"><a href="javascript:void(0)" class="cap-nhat">CẬP NHẬT</a></div>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-8">
+                                <span>X</span>
+                            </button>
+                        </div>                           
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-9">
+	
+                            <div class="content w-100">
+                                 
+                                <div class="thong-tin thong-tin-dia-chi"> 
+                                    <div class="thong-bao-head">
+                                        <span class="ten-lead">Hà Thanh Phương</span> 
+                                    </div>
+                                    <div class="thong-bao-text">
+                                        <p>
+                                            <span class="text-lead">Địa chỉ:</span>
+                                            Số 10 Cô Bắc, Phường 2, Quận Phú Nhuận, TP HCM.
+                                        </p>
+                                        <p>
+                                            <span class="text-lead">Điện thoại:</span>
+                                            0864 111 232
+                                        </p>
+                                    </div>
+                                    <div class="text-center"><a href="javascript:void(0)" class="cap-nhat">CẬP NHẬT</a></div>
+                                </div>
+
+                            </div>
+                            <button class="close" id="data-close-9">
+                                <span>X</span>
+                            </button>
+                        </div>   
+                                         
+
+                        <div class="wrapper-item-gio-hang card-san-pham card-close-9 them-dia-chi-card">
+	
+                            <div class="thong-bao-content them-dia-chi-wrap" id="alert-them1">  
+                                <div class="thong-bao-text mt-2">
+                                    <div class="row">
+                                        <div class="col-lg-4">Họ tên:</div>
+                                        <div class="col-lg-8">
+                                            <input type="text" class="form-control" placeholder="Tên người nhận...">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">Địa chỉ:</div>
+                                        <div class="col-lg-8">
+                                            <textarea name="" id="" rows="3" class="form-control" placeholder="Địa chỉ người nhận..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">Số điện thoại:</div>
+                                        <div class="col-lg-8">
+                                            <input type="text" class="form-control" placeholder="Số điện thoại người nhận...">
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="w-100">
+                                    <button class="btn btn-primary d-block mx-auto" style="min-width: 100px; font-size:16px;">
+                                        THÊM
+                                    </button>
+                                </div>
+                            </div>
+                            <button class="close" id="close-them-dia-chi">
+                                <span>X</span>
+                            </button>
+                        </div>   
+   
+
+                        <div class="alert alert-info alert-dismissible mb-3 alert-them-dia-chi" id="alert-them10" style="display: none;">
+                            <button type="button" class="close" data-dismiss="alert"
+                                style="font-size: 25px; color: black; padding: 0px 7px; border-radius: 5px; background-color: red;  margin:5px;;">X</button>
+                            <div class="thong-bao-content">  
+                                <div class="thong-bao-text mt-2">
+                                    <div class="row">
+                                        <div class="col-lg-4">Họ tên:</div>
+                                        <div class="col-lg-8">
+                                            <input type="text" class="form-control" placeholder="Tên người nhận...">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">Địa chỉ:</div>
+                                        <div class="col-lg-8">
+                                            <textarea name="" id="" rows="3" class="form-control" placeholder="Địa chỉ người nhận..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">Số điện thoại:</div>
+                                        <div class="col-lg-8">
+                                            <input type="text" class="form-control" placeholder="Số điện thoại người nhận...">
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="w-100">
+                                    <button class="btn btn-primary d-block mx-auto" style="min-width: 100px; font-size:16px;">
+                                        THÊM
+                                    </button>
+                                </div>
+                            </div>
+                        </div>   
+
+
+
+                        <button class="btn btn-info" style="font-size:16px;" id="btn-them">
+                            <i class="fa fa-plus mr-3" aria-hidden="true"></i>THÊM ĐỊA CHỈ MỚI
+                        </button>
+
+                        <script>
+
+                            
+                        </script>
+
+
+                    </div>
+                </div> 
+                <div id="s5" class="p-5">
+                    <h1 class="title">Sản phẩm đã xem <span class="my-so-luong">(79)</span></h1>
+                    <div class="row">
+                        <!-- Danh sách các sản phẩm --> 
+                    <div>
+                        <div class="wrapper">
+                            
+                            <div class="px-sm-4 px-3 py-sm-5 py-3 mt-4" style="margin-top: 0px !important;">
+                                <div class="row">
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s1.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11 Pro Max</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">38.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">40.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s2.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">New</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11 Pro Max</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">34.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">46.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s3.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">19.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">20.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                            <div class="px-sm-4 px-3 py-sm-5 py-3 mt-4" style="margin-top: 0px !important;">
+                                <div class="row">
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s4.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại Samsung Galaxy Z</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">33.000.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">35.00.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s5.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại Samsung Galaxy</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">18.490.000
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">19.490.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s6.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại Samsung Galaxy</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">32.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">34.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div> 
+                            
+                            <div class="px-sm-4 px-3 py-sm-5 py-3 mt-4" style="margin-top: 0px !important;">
+                                <div class="row">
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s7.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại OPPO Find</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">19.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">20.990.000  <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s8.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại OPPO Reno4 Pro</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">11.990.000
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">12.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s3.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">19.990.000
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">20.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>   
+                            
+                        </div>
+                        <div class="my-pagination">
+                            <a href="javascript:void(0)">&laquo;</a>
+                            <a href="javascript:void(0)" class="item-active">1</a>
+                            <a href="javascript:void(0)">2</a>
+                            <a href="javascript:void(0)">3</a>
+                            <a href="javascript:void(0)">&raquo;</a>
+                        </div> 
+                    </div>
+                    <!-- // Danh sách các sản phẩm -->
+                    </div>
+                </div> 
+                <div id="s6" class="p-5">
+                    <h1 class="title">Sản phẩm yêu thích <span class="my-so-luong">(32)</span></h1>
+                    <div class="row">
+                        <!-- Danh sách các sản phẩm --> 
+                    <div>
+                        <div class="wrapper">		
+                            
+                            <div class="px-sm-4 px-3 py-sm-5 py-3 mt-4" style="margin-top: 0px !important;">
+                                <div class="row">
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s1.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11 Pro Max</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">38.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">40.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s2.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">New</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11 Pro Max</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">34.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">46.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s3.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại iPhone 11</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">19.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">20.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                            <div class="px-sm-4 px-3 py-sm-5 py-3 mt-4" style="margin-top: 0px !important;">
+                                <div class="row"> 
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s5.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại Samsung Galaxy</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">18.490.000
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">19.490.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s6.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div>
+                                                <span class="product-new-top">Trả góp 0%</span>
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại Samsung Galaxy</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">32.990.000 
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">34.990.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-md-4 col-6 div-img-hover">
+                                        <div> 
+                                            <div class="text-center wrap-img-sp">
+                                                <img src="Resources/myImages/s9.png" class="img-hover" alt="">
+                                                <div class="xem-chi-tiet"> 
+                                                    <a href="chitietsanpham.html">Xem chi tiết</a> 
+                                                </div> 
+                                            </div>
+                                            <div class="text-center mt-2">
+                                                <h4 class="pt-1 ten-san-pham">
+                                                    <a href="single.html">Điện thoại OPPO A93</a>
+                                                </h4>
+                                                <div class="mt-2 text-center mb-0">
+                                                    <p class="text-center mx-auto text-danger mb-0">7.490.000
+                                                        <span class="VND badge badge-danger" 
+                                                            style="vertical-align: top; font-size: 10px;">đ
+                                                        </span> 
+                                                    </p>
+                                                    <del class="text-center">8.490.000 <span class="VND badge badge-default" style="vertical-align: top; font-size: 10px; background-color: gray;">đ</span></del>
+                                                </div>  
+                                                <button class="btn-them">Thêm vào giỏ</button>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>  
+                        </div>
+
+                        <div class="my-pagination">
+                            <a href="javascript:void(0)">&laquo;</a>
+                            <a href="javascript:void(0)" class="item-active">1</a>
+                            <a href="javascript:void(0)">2</a>
+                            <a href="javascript:void(0)">3</a>
+                            <a href="javascript:void(0)">&raquo;</a>
+                        </div> 
+                    </div>
+                    <!-- // Danh sách các sản phẩm -->
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div> 
+
+    <!-- Modal -->
+    <div class="my-modal">
+        <div class="modal-header d-flex">
+            <div class="modal-header-text mr-auto">Thông báo</div>
+            <button class="modal-close ml-auto btn btn-warning">Đóng</button>
+        </div> 
+        <div class="modal-text lead">Bạn đã thêm sản phẩm vào giỏ hàng thành công!</div>
+    </div>  
+    <!-- End modal -->
+
+    </div>
+
+  <!-- End Render body -->
+
+     
+
+
+
+
+
+
+	<!-- Footer -->
+	<div class="footer pt-4">
+		<div class="row">
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">HỖ TRỢ KHÁCH HÀNG</span>
+					<br> 
+					<li>
+						<a href="#">
+							<span class="hotline">Chăm sóc khách hàng: 1900-6035 </span> (1000đ/phút , 8-21h kể cả T7, CN)
+						</a>
+					</li>
+					<li><a href="#">Các câu hỏi thường gặp</a></li>
+					<li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
+					<li><a href="#">Hướng dẫn đặt hàng</a></li>
+					<li><a href="#">Hướng dẫn mua trả góp</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">VỀ CHÚNG TÔI</span>
+					<br> 
+					<li><a href="gioithieu.html">Giới thiệu</a></li>
+					<li><a href="#">Chính sách bảo mật thanh toán</a></li>
+					<li><a href="#">Chính sách bảo mật thông tin cá nhân</a></li>
+					<li><a href="#">Chính sách giải quyết khiếu nại</a></li>
+					<li><a href="#">Điều khoản sử dụng</a></li>
+					<li><a href="#">Bán hàng doanh nghiệp</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<div>
+					<span class="my-caption-f">PHƯƠNG THỨC THANH TOÁN</span>
+					<br> 
+					<div class="cols">
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p1.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p2.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p3.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p4.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p5.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p6.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">ỨNG DỤNG TRÊN ĐIỆN THOẠI</span>
+					<br> 
+					<div class="my-ap">
+						<div class="col-12 my-app-img">
+							<a href="#" class="d-block">
+                                <img src="Resources/myImages/app1.png" style="width: 230px;" class="my-icon-f" alt="">
+                            </a>
+						</div>
+						<div class="col-12 my-app-img mt-2">
+							<a href="#">
+								<img src="Resources/myImages/app2.png" style="width: 230px;" class="my-icon-f" alt="">
+							</a>
+						</div>
+					</div>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!-- //Footer -->
+
+	<!-- Font icon facebook, instagram, googleapis, twitter, youtube vi fontawesome khong dung duoc -->
+	<link rel="stylesheet" href="Resources/fontawesome/myFont/icofont/icofont.min.css">
+	
+	<!--Địa chỉ-->
+	<div class="my-footer">
+		<p class="my-dia-chi"><span>Địa chỉ văn phòng:</span> Khu phố 6, Phường Linh Trung, Quận Thủ Đức, TP.Hồ Chí Minh.
+		</p>
+		<p class="my-dia-chi mb-3">Nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại
+			văn phòng hoặc trung tâm xử lý đơn hàng.</p>
+		<div class="row">
+			<div class="col-6 pr-0">
+				<p style="color: #ffffff !important;" class="my-copy">© 2020 Design by <a href="javascript:void(0)"
+						target="=_blank" style="color: #ff0000 !important;">
+						Huỳnh Ngọc Sơn </a></p>
+			</div>
+			<div class="col-6 pr-0">
+				<div>
+					<ul class="social-icons d-flex justify-content-end align-items-center">
+						<li>
+							<a href="#" class="facebook" title="Facebook">
+								<i class="icofont-facebook my-facebook my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="twitter" title="Twitter">
+								<i class="icofont-twitter my-twitter my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="googleplus" title="Google">
+								<i class="icofont-google-plus my-google my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="instagram wthree" title="Instagram">
+								<i class="icofont-instagram my-instagram my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="youtube" title="youtube">
+								<i class="icofont-youtube-play my-youtube my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div> 
+	<!--// Địa chỉ-->
+  
+
+	<!-- Chatbox --> 
+	<div>
+		<div class="message-dialog message-hiden">
+			<div class="mess-header d-flex align-items-center" style="box-shadow: 0 1px 1px rgb(224, 224, 224);">
+				<div class="mr-auto ml-3 mt-3 d-flex align-items-center">
+					<img src="Resources/myImages/icon-amazon.png" alt="" class="mr-1" style="width:30px; height: 30px; border-radius:50%;">
+					<span style="font-size: 18px;">Hỗ trợ online</span>
+				</div>
+				<div class="ml-0 mr-3 mt-1">
+					<span class="icon-ho-top text-primary" style="cursor: pointer;"><i class="fas fa-video"></i></span>
+					<span class="icon-ho-top text-primary" style="cursor: pointer;"><i class="fa fa-phone" aria-hidden="true"></i></i></span>
+					<span class="message-minimize icon-ho-top text-primary" style="cursor: pointer;">X</span>
+				</div>
+			</div> 
+			<div class="message-content px-2" style="overflow: auto;">
+
+				<div class="message-text d-flex justify-content-start mt-3">
+					<div style="width: 35px;"></div>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; border-bottom-left-radius: 0;background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px; margin-bottom:0;"> 
+								Cảm ơn bạn đã cho phép chúng tôi cơ hội để hỗ trợ bạn.	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="message-text d-flex justify-content-start mt-1">
+					<div style="width: 35px;"></div>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; border-bottom-left-radius: 0;border-top-left-radius: 0;background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px;" class="mb-0"> 
+								Cảm ơn bạn đã cho phép chúng tôi cơ hội để hỗ trợ bạn.	<br>
+								Chào mừng bạn đến cửa hàng, Tìm những gì bạn thích ... ❤	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="message-text d-flex justify-content-start mt-1">
+					<a href="javascript:void(0)" class="mt-auto"><img src="Resources/myImages/icon-amazon.png" class="mt-auto mr-2" alt=""style="width:30px;height:auto; border-radius:50%;"></a>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px;border-top-left-radius: 0; background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px;" class="mb-0">
+								Tất cả các sản phẩm của chúng tôi là trong kho.	<br>
+								Dịch vụ khách hàng Thời gian trực tuyến: 9 xuất 00 AM-18 00 00.❤	<br>
+								Giới thiệu về Thời gian giao hàng Giao hàng 1-2 ngày, Nhận trong 7-15 ngày.❤ 	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="mess-date text-center lead my-show-chat2" >17:50, 21 Tháng 10, 2020</p> 
+	
+				<div class="message-text justify-content-start mt-1 mess-hiden my-hiden my-show-chat1" style="position: relative; height: auto;">
+					<div style="width: 400px;">
+						<div class="message-comment w-75" style="margin-left: 60px;" >
+							<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; background-color:rgb(224, 224, 224)">
+								<p style="color: black !important; border:none; font-size:14px;" id="mess-hiden-text" class="mb-0">
+									 
+								</p>
+							</div>
+						</div> 
+					</div> 
+
+					<a href="javascript:void(0)" class="mt-auto" style="position: absolute; bottom: 0; right: -8px;">
+						<img src="Resources/myImages/user-s.png" class="mt-auto mr-2" alt=""style="width:30px;height:auto; border-radius:50%;">
+					</a>	
+				</div>
+
+				<p class="mess-date text-center lead mess-hiden my-hiden my-show-chat2" style="clear: both;" >17:50, 21 Tháng 10, 2020</p> 
+
+				<div class="clearfix"></div>
+
+				<script>
+					$(window).ready(function(){
+							$("#btn-send-mess").click(function() {
+								var date = new Date();
+								var text = $("#mess-text-current").val();
+								$("#mess-text-current").val("");
+								
+								if( text != "") {
+									$(".my-show-chat1").removeClass("my-hiden").addClass("d-flex");
+									$(".my-show-chat2").removeClass("my-hiden").text(date.getMinutes() + ":" + date.getHours() + ", " + date.getDate() + " Tháng " + (date.getMonth() + 1) + ", " + date.getFullYear());
+									$("#mess-hiden-text").text(text);
+
+								}
+
+						})
+					})
+				</script>
+
+			</div>
+			<div class="message-footer mt-auto d-flex px-2 justify-content-center align-items-center" style="height: 50px;box-shadow: 0 -1px 1px rgb(224, 224, 224);;">
+				<a href="javascript:void(0)" class="icon-ho ml-2"><i class="fa fa-camera text-primary" aria-hidden="true" style="font-size: 30px;"></i></a>
+				<a href="javascript:void(0)" class="icon-ho ml-2"><i class="fa fa-paperclip" aria-hidden="true" style="font-size: 30px;"></i></a>
+				<input type="text" class="mx-1" style="width: 220px; padding:5px 10px;margin-bottom: 0px;background-color: rgb(224, 224, 224);color: black;font-size:14px; border-radius: 20px;" placeholder="Nhập nội dung bạn muốn gửi..." id="mess-text-current">
+				<a href="javascript:void(0)" class="icon-ho ml-2" id="btn-send-mess"><i class="fa fa-paper-plane text-primary" aria-hidden="true" style="font-size: 30px"></i></a>  
+			</div>
+		</div>
+		<div class="message-icon">
+			<i class="far fa-comment-dots"></i>
+		</div> 
+	</div>
+    <!-- Lên đầu trang -->
+    
+	<a href="#" class="len-dau-trang">  
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a> 
+	<!--//Chatbox --> 
+
+</body> 
+</html>

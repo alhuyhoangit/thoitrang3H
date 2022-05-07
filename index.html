@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="zxx">  
+<head>
+
+	<title>Trang chủ</title>
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+ 
+	<link rel="stylesheet" href="Resources/css/myStyle.css">   
+	<link rel="stylesheet" href="Resources/fontawesome/css/all.min.css">    
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 
+	<script src="Resources/js/myJS.js"></script>
+
+</head>  
+<body>  	 
+	<!-- Header -->
+	<div>
+		<!-- my-Header -->
+		<div class="my-head container-fluid">
+			<!-- Header-Top-Bar  -->
+			<div class="container d-flex justify-content-start align-items-start my-header">
+				<a href="index.html">
+					<img src="Resources/myImages/logo.png" alt="Logo" class="my-logo">
+				</a>
+				<form action="" class="d-inline-block my-form">
+					<div class="search row my-row">
+						<input type="text" placeholder="Bạn tìm gì..." class="my-search-text col-10">
+						<a class="btn btn-outline-primary col-2 my-search-button" style="height: 40px;">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</form>
+				<div class="my-header-right d-flex justify-content-center align-items-center">
+					<a href="thongtinkhachang.html" class="ml-5 my-header-right-item my-header-right-item2 my-active"><strong>Huỳnh Ngọc Sơn</strong></a>  
+					<a href="thongtinkhachang.html" class="ml-2 mt-5 my-header-right-item my-header-right-item2 my-user-responsive">
+						<img src="Resources/myImages/user-s.png" alt="Huỳnh Ngọc Sơn" style="width: 40px;top: 25px;position: absolute;" >
+					</a> 
+					<a href="login.html" class="ml-5 my-header-right-item my-header-right-item2 my-res-a my-active"><strong>Đăng xuất</strong></a>
+					<a href="login.html" class="ml-2 mt-5 my-header-right-item my-header-right-item2 my-res-a my-user-responsive" >
+						<img src="Resources/myImages/user-s-logout.png" alt="Huỳnh Ngọc Sơn" class="ml-1" style="width: 40px;top: 25px;position: absolute;">
+					</a>
+					<a href="giohang.html" class="ml-5 my-header-right-item my-giohang my-lg">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Giỏ hàng
+						<span class="badge badge-danger my-no">4</span>
+					</a>
+					<a href="giohang.html" class="ml-2 my-header-right-item my-giohang my-sm my-res-a" style="margin-right: 15px;margin-top:20px;">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true" style="right:5px;" ></i> 
+						<span class="badge badge-danger my-no">4</span>
+					</a>
+				</div>
+			</div>
+			<!-- //Header-Top-Bar  -->
+
+
+			<!-- Navigation --> 
+			<div class="d-flex justify-content-center align-items-center Navigation"> 
+				<ul class="my-nav d-flex justify-content-center my-nav-temp" id="my-navs">
+					<li class="my-active">
+						<a href="index.html">TRANG CHỦ</a>
+					</li> 
+					<li class="my-parent-2">
+						<a href="sanpham.html">SẢN PHẨM <span></span></a>
+						<div class="my-dropdow">
+							<ul>
+								<li>
+									<a href="sanpham.html" class="li2">ĐIỆN THOẠI</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">LAPTOP</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">TABLET</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">SMART WATCH</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="my-parent-2">
+						<a href="sanpham.html">PHỤ KIỆN</a>
+						<div class="my-dropdow">
+							<ul>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN ĐIỆN THOẠI</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN LAPTOP</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN TABLET</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN SMART WATCH</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="gioithieu.html">GIỚI THIỆU</a>
+					</li>
+					<li>
+						<a href="lienhe.html">LIÊN HỆ</a>
+					</li>
+				</ul>
+				<a href="javascript:void(0);" style="font-size: 50px;" class="icon" id="btn-toggle">&#9776;</a>
+			</div>
+			<!-- //Navigation -->
+			
+		</div>
+
+		<!-- end my-Header --> 
+ 
+		<!-- Background trang chủ -->
+		<div class="slide-show">
+ 
+        
+			<div class="slides">
+				<input type="radio" name="slide" id="r1">
+				<input type="radio" name="slide" id="r2">
+				<input type="radio" name="slide" id="r3">
+				<input type="radio" name="slide" id="r4">
+				<input type="radio" name="slide" id="r5"> 
+	
+				<div class="s1"><img src="Resources/myImages/slide-1.jpg" alt=""></div>
+				<div><img src="Resources/myImages/slide-2.jpg" alt=""></div>
+				<div><img src="Resources/myImages/slide-3.png" alt=""></div>
+				<div><img src="Resources/myImages/slide-4.jpg" alt=""></div>
+				<div><img src="Resources/myImages/slide-5.jpg" alt=""></div>
+			</div>
+	
+			<div class="redirection-for">
+				<label for="r1"><i class="fa fa-heart" aria-hidden="true"></i></label>
+				<label for="r2"><i class="fa fa-heart" aria-hidden="true"></i></label>
+				<label for="r3"><i class="fa fa-heart" aria-hidden="true"></i></label>
+				<label for="r4"><i class="fa fa-heart" aria-hidden="true"></i></label>
+				<label for="r5"><i class="fa fa-heart" aria-hidden="true"></i></label>
+			</div>
+
+			<span class="left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>
+			<span class="right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+
+			<script>
+				var i = 1;
+				var slide = $(".slide-show .slides .s1");
+				$(document).ready(() => {
+					$(".left").click(() => {
+						for(var j = 0; j < sl; j++) {
+							$("#r" + j).checked = false;
+						}
+						var redirect = $('.redirection-for label');
+						var sl = parseInt(redirect.length); // tim so luong hinh anh  
+						if(--i == 0) {
+							i = sl;  // show anh cuoi
+						}  
+
+						// $("#r" + i).attr("checked","true");
+						document.getElementById("r" + i).checked = true;
+					})
+					$(".right").click(() => {
+						for(var j = 0; j < sl; j++) {
+							document.getElementById("r" + j).checked = false;
+						} 
+
+						var redirect = $('.redirection-for label');
+						var sl = parseInt(redirect.length); // tim so luong hinh anh  
+						if(++i == sl + 1) {
+							i = 1; // show anh so 1
+						}    
+						// $("#r" + i).attr("checked","true");	 
+						document.getElementById("r" + i).checked = true;
+					})
+				})
+			</script>
+	
+		</div>
+
+	</div>
+	<!-- //Header --> 
+
+
+	<!-- Điện thoại -->
+	<div class="sp-dien-thoai">
+		<div class="container">
+			<p class="title-dien-thoai">
+				 SẢN PHẨM NỔI BẬT ĐIỆN THOẠI
+			</p> 
+			<div class="row show-san-pham">
+				<!-- <div class="col-md-5 slideanim my-left-1">
+					<div class="grid">
+						<figure class="effect">
+							<img src="Resources/myImages/slide-11.jpg" alt="Sản phẩm điện thoại 1" class="w-100">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					<h4>
+						<a href="chitietsanpham.html" class="ten">Điện thoại iPhone 11 Pro Max</a>
+					</h4>
+					<h5>34.990.000<span class="badge vnd">₫</span></h5>
+					<h6><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+				</div>
+				<div class="col-md-5 offset-md-2 slideanim my-left-2" >
+					<div class="grid">
+						<figure class="effect">
+							<img src="Resources/myImages/slide-21.jpg" alt="Sản phẩm điện thoại 2"  class="w-100">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					<h4>
+						<a href="chitietsanpham.html" class="ten">Điện thoại Samsung Galaxy Note 10+</a>
+					</h4>
+					<h5>16.490.000<span class="badge vnd">₫</span></h5>
+					<h6><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+				</div>
+				<div class="col-md-5 slideanim2 my-left-1 mt-4">
+					<div class="grid">
+						<figure class="effect">
+							<img src="Resources/myImages/slide-31.jpg" alt="Sản phẩm điện thoại 3"  class="w-100">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					<h4>
+						<a href="chitietsanpham.html" class="ten">Điện thoại OPPO Reno4</a>
+					</h4>
+					<h5>8.490.000<span class="badge vnd">₫</span></h5>
+					<h6><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+				</div>
+				<div class="col-md-5 offset-md-2 slideanim1 my-left-2 mt-4">
+					<div class="grid">
+						<figure class="effect">
+							<img src="Resources/myImages/slide-41.jpg" alt="Sản phẩm điện thoại 4" class="w-100">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					<h4>
+						<a href="chitietsanpham.html" class="ten">Điện thoại Realme 7</a>
+					</h4>
+					<h5>6.990.000<span class="badge vnd">₫</span></h5>
+					<h6><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+				</div> -->
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!-- //Điện thoại -->  
+
+
+	<!-- Tablet -->
+	<div class="w-75 mx-auto" >
+		<p class="title-dien-thoai" style="margin-top: 50px;">
+			 SẢN PHẨM NỔI BẬT TABLET
+		</p>
+		<div class="row div-parent-sp"> 
+			<div class="col-md-6 slideanim3" style="padding: 0px 5px;">
+				<div style="padding: 5px 0px;" class="tablet-card">
+					<img src="Resources/myImages/model_slide-1.jpg" alt="Sản phẩm tablet 1" class="w-100">
+					<div class="my-content-denim">
+						<p class="ten">iPad Pro 12.9 inch Wifi Cellular</p>
+						<p class="noi-dung"></p>
+						<h5>34.990.000<span class="badge vnd"><sup>đ</sup></span></h5>
+						<a href="chitietsanpham.html" class="xem-them">
+							<span>Xem thêm</span>
+						</a>   
+					</div>
+				</div> 
+			</div>
+			<div class="col-md-6 slideanim4" style="padding: 0px 5px;"> 
+				<div style="padding: 5px 0px;" class="tablet-card">
+					<img src="Resources/myImages/model_slide-3.jpg" alt="Sản phẩm tablet 2" class="w-100">
+					<div class="my-content-denim">
+						<p class="ten">Samsung Galaxy Tab A 10.1</p>
+						<p class="noi-dung"></p>
+						<h5>16.490.000<span class="badge vnd">₫</span></h5>
+						<a href="chitietsanpham.html" class="xem-them">
+							<span>Xem thêm</span>
+						</a>   
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>		 
+	</div>
+	<!-- // Tablet -->
+
+
+	<!-- Laptop  để sau--> 
+	<div style="padding: 1px 0!important; background-color :#F5F5F5;margin-top: 70px;padding-bottom: 50px !important;">
+		<p class="title-dien-thoai" style="margin-top: 50px;">
+			 SẢN PHẨM NỔI BẬT LAPTOP
+		</p>
+		<div class="row w-75 mx-auto"> 
+			<div class="col-md-6 styl slideanim4" style="padding: 0px 5px;">
+				<div class="tablet-card" style="padding: 5px 0px;">
+					<img src="Resources/myImages/style-1.png" alt="Sản phẩm laptop 1" class="w-100">
+					<div class="style-grid-2-text my-content-denim my-content-denim2">
+						<p class="ten">Laptop MacBook Pro Touch 16 inch 2019</p>
+						<p class="noi-dung"></p>
+						<h5>58.990.000<span class="badge vnd"><sup>đ</sup></span></h5>
+						<a href="chitietsanpham.html" class="xem-them">
+							<span>Xem thêm</span>
+						</a>   
+					</div>
+				</div> 
+			</div>
+			<div class="col-md-6 slideanim3" style="padding: 0px 5px;">
+				<div class="tablet-card" style="padding: 0px 0px">
+					<img src="Resources/myImages/style-2.png" alt="Sản phẩm laptop 2" class="w-100">
+					<div class="style-grid-2-text my-content-denim my-content-denim3">
+						<p class="ten">Laptop Asus Rog Zephyrus GU502LU i7</p>
+						<p class="noi-dung"></p>
+						<h5>41.990.000<span class="badge vnd"><sup>đ</sup></span></h5>
+						<a href="chitietsanpham.html" class="xem-them">
+							<span>Xem thêm</span>
+						</a>   
+					</div>
+				</div>
+				<div class="tablet-card slideanim3" style="padding: 5px 0px;">
+					<img src="Resources/myImages/style-3.png" alt="Sản phẩm laptop 3" class="w-100">
+					<div class="style-grid-2-text my-content-denim  my-content-denim3">
+						<p class="ten">Laptop Dell Inspiron 5482 i5</p>
+						<p class="noi-dung"></p>
+						<h5>23.390.000<span class="badge vnd">₫</span></h5>
+						<a href="chitietsanpham.html" class="xem-them">
+							<span>Xem thêm</span>
+						</a>   
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- // Laptop -->
+
+
+	<!-- Sản phẩm mới -->
+	<div class="new-sp">
+		<div class="new-sp-text">
+			<p class="ten">vivo <span>V20</span></p>
+			<p class="cap1">Selfie Lấy Nét Tự Động Theo Mắt 44MP</p>
+			<p class="cap2">Kính Mờ Siêu Mỏng | Chụp Đêm 64MP</p>
+			<div class="d-flex justify-content-center align-items-center">
+				<button >
+					ĐẶT TRƯỚC <br>
+					<span>Cọc 500.000<sup>đ</sup> </span>
+				</button>
+				<button>
+					TRẢ GÓP <br>
+					<span>Cọc 500.000<sup>đ</sup> </span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- // Sản phẩm mới -->
+
+
+	<!-- Smart watch -->  
+	<div class="sp-smart-watch sp-dien-thoai">
+		<div class="container">
+			<p class="title-dien-thoai">
+				SẢN PHẨM NỔI BẬT SMART WATCH
+			</p>
+			<div class="sp-smart-watch-grids row show-san-pham">
+				<div class="col-md-5 sp-smart-watch-grid sp-smart-watch-grid1 slideanim my-left-1">
+					<div class="grid">
+						<figure class="effect">
+							<img src="Resources/myImages/mens.png" alt="Đồng hồ 1" style="background-color: white;" class="w-100">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					<h4>
+						<a href="chitietsanpham.html" class="ten">Apple Watch S5 LTE 44mm viền thép dây thép</a>
+					</h4>
+					<h5>20.990.000<span class="badge vnd">₫</span></h5>
+					<h6><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+				</div>
+				<div class="col-md-5 offset-md-2 sp-smart-watch-grid sp-smart-watch-grid2 slideanim my-left-2" >
+					<div class="grid">
+						<figure class="effect">
+							<img src="Resources/myImages/womens.png" alt="Đồng hồ 2" style="background-color: white;" class="w-100">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					<h4>
+						<a href="chitietsanpham.html" class="ten">Apple Watch S6 LTE 40mm viền thép dây thép</a>
+					</h4>
+					<h5>21.990.000<span class="badge vnd">₫</span></h5>
+					<h6><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+				</div> 
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!-- // Smart watch -->
+
+ 
+	<!--Đăng ký-->
+	<div class="bg-dang-ky">
+
+		<h3>ĐĂNG KÝ ĐỂ NHẬN THÔNG BÁO MỚI NHẤT</h3>
+		<p>Đăng ký với chúng tôi để có quyền truy cập cấp cao nhất vào các phong cách và xu hướng mới của chúng tôi</p>
+		<div>
+			<a class="btn-dang-ky px-4 py-2" href="javascript:void(0)" style="font-size: 1.5vw; text-decoration: none;">ĐĂNG KÝ</a>
+
+			<div class="show-dang-ky">
+				<div class="content-dang-ky">
+					<h2>ĐĂNG KÝ</h2>
+					<input type="text" placeholder="Vui lòng nhập email">
+					<button onclick="DangKyFunction()" class="dang-ky-thanh-cong">ĐĂNG KÝ</button>
+					<button class="close-dang-ky">X</button>
+				</div>
+			</div> 
+
+		</div> 
+ 
+		<script>
+			$(document).ready(() => {
+				$(".btn-dang-ky").click(() => {
+					$(".show-dang-ky").fadeIn(200);  
+				})
+
+				$(".close-dang-ky").click(() => {
+					$(".show-dang-ky").fadeOut(200); 
+				})  
+				
+			})
+			
+			function DangKyFunction() {				 
+				$(".show-dang-ky").fadeOut(200, function() {
+					alert("Bạn đã đăng ký nhận thông báo thành công!");
+				}); 
+			} 
+		</script>
+		
+
+	</div> 
+	<!--// Đăng ký-->
+
+
+	<!-- Footer -->
+	<div class="footer pt-4">
+		<div class="row">
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">HỖ TRỢ KHÁCH HÀNG</span>
+					<br> 
+					<li>
+						<a href="#">
+							<span class="hotline">Chăm sóc khách hàng: 1900-6035 </span> (1000đ/phút , 8-21h kể cả T7, CN)
+						</a>
+					</li>
+					<li><a href="#">Các câu hỏi thường gặp</a></li>
+					<li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
+					<li><a href="#">Hướng dẫn đặt hàng</a></li>
+					<li><a href="#">Hướng dẫn mua trả góp</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">VỀ CHÚNG TÔI</span>
+					<br> 
+					<li><a href="gioithieu.html">Giới thiệu</a></li>
+					<li><a href="#">Chính sách bảo mật thanh toán</a></li>
+					<li><a href="#">Chính sách bảo mật thông tin cá nhân</a></li>
+					<li><a href="#">Chính sách giải quyết khiếu nại</a></li>
+					<li><a href="#">Điều khoản sử dụng</a></li>
+					<li><a href="#">Bán hàng doanh nghiệp</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<div>
+					<span class="my-caption-f">PHƯƠNG THỨC THANH TOÁN</span>
+					<br> 
+					<div class="cols">
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p1.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p2.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p3.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p4.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p5.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p6.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">ỨNG DỤNG TRÊN ĐIỆN THOẠI</span>
+					<br> 
+					<div class="my-ap">
+						<div class="col-12 my-app-img">
+							<a href="#" class="d-block">
+                                <img src="Resources/myImages/app1.png" style="width: 230px;" class="my-icon-f" alt="">
+                            </a>
+						</div>
+						<div class="col-12 my-app-img mt-2">
+							<a href="#">
+								<img src="Resources/myImages/app2.png" style="width: 230px;" class="my-icon-f" alt="">
+							</a>
+						</div>
+					</div>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!-- //Footer -->
+
+	<!-- Font icon facebook, instagram, googleapis, twitter, youtube vi fontawesome khong dung duoc -->
+	<link rel="stylesheet" href="Resources/fontawesome/myFont/icofont/icofont.min.css">
+	
+	<!--Địa chỉ-->
+	<div class="my-footer">
+		<p class="my-dia-chi"><span>Địa chỉ văn phòng:</span> Khu phố 6, Phường Linh Trung, Quận Thủ Đức, TP.Hồ Chí Minh.
+		</p>
+		<p class="my-dia-chi mb-3">Nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại
+			văn phòng hoặc trung tâm xử lý đơn hàng.</p>
+		<div class="row">
+			<div class="col-6 pr-0">
+				<p style="color: #ffffff !important;" class="my-copy">© 2020 Design by <a href="javascript:void(0)"
+						target="=_blank" style="color: #ff0000 !important;">
+						Huỳnh Ngọc Sơn </a></p>
+			</div>
+			<div class="col-6 pr-0">
+				<div>
+					<ul class="social-icons d-flex justify-content-end align-items-center">
+						<li>
+							<a href="#" class="facebook" title="Facebook">
+								<i class="icofont-facebook my-facebook my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="twitter" title="Twitter">
+								<i class="icofont-twitter my-twitter my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="googleplus" title="Google">
+								<i class="icofont-google-plus my-google my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="instagram wthree" title="Instagram">
+								<i class="icofont-instagram my-instagram my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="youtube" title="youtube">
+								<i class="icofont-youtube-play my-youtube my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div> 
+	<!--// Địa chỉ-->
+  
+
+	<!-- Chatbox --> 
+	<div>
+		<div class="message-dialog message-hiden">
+			<div class="mess-header d-flex align-items-center" style="box-shadow: 0 1px 1px rgb(224, 224, 224);">
+				<div class="mr-auto ml-3 mt-3 d-flex align-items-center">
+					<img src="Resources/myImages/icon-amazon.png" alt="" class="mr-1" style="width:30px; height: 30px; border-radius:50%;">
+					<span style="font-size: 18px;">Hỗ trợ online</span>
+				</div>
+				<div class="ml-0 mr-3 mt-1">
+					<span class="icon-ho-top text-primary" style="cursor: pointer;"><i class="fas fa-video"></i></span>
+					<span class="icon-ho-top text-primary" style="cursor: pointer;"><i class="fa fa-phone" aria-hidden="true"></i></i></span>
+					<span class="message-minimize icon-ho-top text-primary" style="cursor: pointer;">X</span>
+				</div>
+			</div> 
+			<div class="message-content px-2" style="overflow: auto;">
+
+				<div class="message-text d-flex justify-content-start mt-3">
+					<div style="width: 35px;"></div>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; border-bottom-left-radius: 0;background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px; margin-bottom:0;"> 
+								Cảm ơn bạn đã cho phép chúng tôi cơ hội để hỗ trợ bạn.	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="message-text d-flex justify-content-start mt-1">
+					<div style="width: 35px;"></div>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; border-bottom-left-radius: 0;border-top-left-radius: 0;background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px;" class="mb-0"> 
+								Cảm ơn bạn đã cho phép chúng tôi cơ hội để hỗ trợ bạn.	<br>
+								Chào mừng bạn đến cửa hàng, Tìm những gì bạn thích ... ❤	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="message-text d-flex justify-content-start mt-1">
+					<a href="javascript:void(0)" class="mt-auto"><img src="Resources/myImages/icon-amazon.png" class="mt-auto mr-2" alt=""style="width:30px;height:auto; border-radius:50%;"></a>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px;border-top-left-radius: 0; background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px;" class="mb-0">
+								Tất cả các sản phẩm của chúng tôi là trong kho.	<br>
+								Dịch vụ khách hàng Thời gian trực tuyến: 9 xuất 00 AM-18 00 00.❤	<br>
+								Giới thiệu về Thời gian giao hàng Giao hàng 1-2 ngày, Nhận trong 7-15 ngày.❤ 	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="mess-date text-center lead my-show-chat2" >17:50, 21 Tháng 10, 2020</p> 
+	
+				<div class="message-text justify-content-start mt-1 mess-hiden my-hiden my-show-chat1" style="position: relative; height: auto;">
+					<div style="width: 400px;">
+						<div class="message-comment w-75" style="margin-left: 60px;" >
+							<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; background-color:rgb(224, 224, 224)">
+								<p style="color: black !important; border:none; font-size:14px;" id="mess-hiden-text" class="mb-0">
+									 
+								</p>
+							</div>
+						</div> 
+					</div> 
+
+					<a href="javascript:void(0)" class="mt-auto" style="position: absolute; bottom: 0; right: -8px;">
+						<img src="Resources/myImages/user-s.png" class="mt-auto mr-2" alt=""style="width:30px;height:auto; border-radius:50%;">
+					</a>	
+				</div>
+
+				<p class="mess-date text-center lead mess-hiden my-hiden my-show-chat2" style="clear: both;" >17:50, 21 Tháng 10, 2020</p> 
+
+				<div class="clearfix"></div>
+
+				<script>
+					$(window).ready(function(){
+							$("#btn-send-mess").click(function() {
+								var date = new Date();
+								var text = $("#mess-text-current").val();
+								$("#mess-text-current").val("");
+								
+								if( text != "") {
+									$(".my-show-chat1").removeClass("my-hiden").addClass("d-flex");
+									$(".my-show-chat2").removeClass("my-hiden").text(date.getMinutes() + ":" + date.getHours() + ", " + date.getDate() + " Tháng " + (date.getMonth() + 1) + ", " + date.getFullYear());
+									$("#mess-hiden-text").text(text);
+
+								}
+
+						})
+					})
+				</script>
+
+			</div>
+			<div class="message-footer mt-auto d-flex px-2 justify-content-center align-items-center" style="height: 50px;box-shadow: 0 -1px 1px rgb(224, 224, 224);;">
+				<a href="javascript:void(0)" class="icon-ho ml-2"><i class="fa fa-camera text-primary" aria-hidden="true" style="font-size: 30px;"></i></a>
+				<a href="javascript:void(0)" class="icon-ho ml-2"><i class="fa fa-paperclip" aria-hidden="true" style="font-size: 30px;"></i></a>
+				<input type="text" class="mx-1" style="width: 220px; padding:5px 10px;margin-bottom: 0px;background-color: rgb(224, 224, 224);color: black;font-size:14px; border-radius: 20px;" placeholder="Nhập nội dung bạn muốn gửi..." id="mess-text-current">
+				<a href="javascript:void(0)" class="icon-ho ml-2" id="btn-send-mess"><i class="fa fa-paper-plane text-primary" aria-hidden="true" style="font-size: 30px"></i></a>  
+			</div>
+		</div>
+		<div class="message-icon">
+			<i class="far fa-comment-dots"></i>
+		</div> 
+	</div>
+	<!-- Lên đầu trang -->
+	<a href="#" class="len-dau-trang">  
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a> 
+	<!--//Chatbox --> 
+
+	<script src="./assets/js/index.js"></script>
+
+</body> 
+</html>

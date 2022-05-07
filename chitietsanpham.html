@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<title>Trang chi tiết sản phẩm</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+	
+	<link rel="stylesheet" href="Resources/css/myStyle.css">   
+	<link rel="stylesheet" href="Resources/fontawesome/css/all.min.css">    
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+	<script src="Resources/js/myJS.js"></script>
+ 
+
+</head>  
+<body> 
+	 
+	<!-- Header -->
+	<div>
+		<!-- my-Header -->
+		<div class="my-head container-fluid">
+			<!-- Header-Top-Bar  -->
+			<div class="container d-flex justify-content-start align-items-start my-header">
+				<a href="index.html">
+					<img src="Resources/myImages/logo.png" alt="Logo" class="my-logo">
+				</a>
+				<form action="" class="d-inline-block my-form">
+					<div class="search row my-row">
+						<input type="text" placeholder="Bạn tìm gì..." class="my-search-text col-10">
+						<a class="btn btn-outline-primary col-2 my-search-button" style="height: 40px;">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</form>
+				<div class="my-header-right d-flex justify-content-center align-items-center">
+					<a href="thongtinkhachang.html" class="ml-5 my-header-right-item my-header-right-item2 my-active"><strong>Huỳnh Ngọc Sơn</strong></a>  
+					<a href="thongtinkhachang.html" class="ml-2 mt-5 my-header-right-item my-header-right-item2 my-user-responsive">
+						<img src="Resources/myImages/user-s.png" alt="Huỳnh Ngọc Sơn" style="width: 40px;top: 25px;position: absolute;" >
+					</a> 
+					<a href="login.html" class="ml-5 my-header-right-item my-header-right-item2 my-res-a my-active"><strong>Đăng xuất</strong></a>
+					<a href="login.html" class="ml-2 mt-5 my-header-right-item my-header-right-item2 my-res-a my-user-responsive" >
+						<img src="Resources/myImages/user-s-logout.png" alt="Huỳnh Ngọc Sơn" class="ml-1" style="width: 40px;top: 25px;position: absolute;">
+					</a>
+					<a href="giohang.html" class="ml-5 my-header-right-item my-giohang my-lg">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+						Giỏ hàng
+						<span class="badge badge-danger my-no">4</span>
+					</a>
+					<a href="giohang.html" class="ml-2 my-header-right-item my-giohang my-sm my-res-a" style="margin-right: 15px;margin-top:20px;">
+						<i class="fa fa-cart-arrow-down" aria-hidden="true" style="right:5px;" ></i> 
+						<span class="badge badge-danger my-no">4</span>
+					</a>
+				</div>
+			</div>
+			<!-- //Header-Top-Bar  -->
+
+
+			<!-- Navigation --> 
+			<div class="d-flex justify-content-center align-items-center Navigation"> 
+				<ul class="my-nav d-flex justify-content-center my-nav-temp" id="my-navs">
+					<li class="my-active">
+						<a href="index.html">TRANG CHỦ</a>
+					</li> 
+					<li class="my-parent-2">
+						<a href="sanpham.html">SẢN PHẨM <span></span></a>
+						<div class="my-dropdow">
+							<ul>
+								<li>
+									<a href="sanpham.html" class="li2">ĐIỆN THOẠI</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">LAPTOP</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">TABLET</a>
+								</li>
+								<li>
+									<a href="sanpham.html" class="li2">SMART WATCH</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="my-parent-2">
+						<a href="phukien.html">PHỤ KIỆN</a>
+						<div class="my-dropdow">
+							<ul>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN ĐIỆN THOẠI</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN LAPTOP</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN TABLET</a>
+								</li>
+								<li>
+									<a href="phukien.html" class="li2">PHỤ KIỆN SMART WATCH</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="gioithieu.html">GIỚI THIỆU</a>
+					</li>
+					<li>
+						<a href="lienhe.html">LIÊN HỆ</a>
+					</li>
+				</ul>
+				<a href="javascript:void(0);" style="font-size: 50px;" class="icon" id="btn-toggle">&#9776;</a>
+			</div>
+			<!-- //Navigation -->
+			
+		</div>
+
+		<!-- end my-Header -->  
+
+	</div>
+	<!-- //Header --> 
+ 
+
+	<!-- ********************************************************************************************************* -->
+	<!-- Render body -->
+
+	<div class="py-0 chi-tiet-san-pham">
+		<div class="container py-xl-4 py-lg-2">
+			<!-- Địa chỉ trang --> 
+			<ol class="dia-chi" style="background-color: white; font-size: 20px;">
+				<li><a href="index.html">Trang chủ</a></li> 
+				<li><a href="sanpham.html">Điện thoại</a></li> 
+				<li class="active">iPhone 11 Pro Max</li>
+			</ol> 
+			<!-- // Địa chỉ trang -->
+
+			<!-- // Thông tin nhanh -->
+			<div class="row thong-tin-nhanh-img" style="padding-top: 15px;margin-top: 30px;">
+				<div class="col-lg-5 col-md-8 p-0 mt-2"> 
+
+					<div class="show-sp row w-100 m-0 img-dien-thoai-show" >
+						<div class="slide-show">  
+													
+							<div class="slides">  
+								<input type="radio" name="" id="r1">
+								<input type="radio" name="" id="r2">
+								<input type="radio" name="" id="r3">
+
+								<div class="s1"><img src="Resources/myImages/si1.jpg" alt=""></div> 
+								<div><img src="Resources/myImages/si2.jpg" alt=""></div> 
+								<div><img src="Resources/myImages/si3.jpg" alt=""></div> 
+							</div>	 
+						</div>
+						<div class="row w-100 mt-1 ml-0">
+							<label class="col-4 px-0 wrap-img label-img" for="r1">
+								<a href="javascript:void(0)"><img src="Resources/myImages/si1.jpg" data-src="Resources/myImages/si1.jpg" class="image-show-sm" alt="ASDASD"></a> 
+							</label>
+							<label class="col-4 px-0 wrap-img text-center label-img" for="r2">
+								<a href="javascript:void(0)"><img src="Resources/myImages/si2.jpg" data-src="Resources/myImages/si2.jpg" class="image-show-sm" alt="ASDASD"> </a>
+							</label>
+							<label class="col-4 px-0 wrap-img text-right label-img" for="r3">
+								<a href="javascript:void(0)"><img src="Resources/myImages/si3.jpg" data-src="Resources/myImages/si3.jpg" class="image-show-sm" alt=""> </a>
+							</label>
+						</div>		
+					</div>
+
+					<!-- Tao slide hinh anh -->
+					<style>
+						.slide-show{
+							width:100%;     /* cho slide chinh bang width man hinh */
+							height: 300px; 
+							background-color: #9dd7db; 
+							overflow: hidden;   /* an di may cai slide khac slide chinh */
+							position: relative;
+						}
+
+						.img-dien-thoai-show:hover .s1{
+							animation: none;
+						}
+
+						.slides{
+							width: 300%;    /* vi co tong cong 5 hinh anh, nen la 5 * 100% = 500% */
+							height: 100%;
+							display: flex;  /* chi cac item ben trong nam tren mot dong*/
+						}
+
+						.slides > div{ 
+							width:33.33%;      /* 100% / 5 = 20% */
+							height: 100%;
+							transition: all 0.4s ease;
+						}
+
+						.slides > div img{
+							width: 100%; 
+							height: 100%;   
+						}
+						/* end dinh dang slides */
+
+						.label-img img{
+							border: 1px solid transparent;
+							opacity: 0.7;
+						}
+
+						.label-img:hover img{
+							border: 1px solid red;
+							opacity: 1;
+						}
+
+						#r1:hover ~ .s1{
+							margin-left: 0%;
+						}
+						
+						#r2:hover ~ .s1{
+							margin-left: -33.33%;
+						}
+						
+						#r3:hover ~ .s1{
+							margin-left: -66.66%;
+						}
+						
+						.s1{
+							animation: slide-change 9s infinite;
+						}
+							
+						@keyframes slide-change{
+							5%{ 
+								margin-left: -33.33%;             
+							} 
+							33.33%{ 
+								margin-left: -33.33%; 
+							}
+							38.33%{
+								margin-left: -66.66%;        
+							}
+							66.66%{ 
+								margin-left: -66.66%;             
+							} 
+							71.66%{ 
+								margin-left: 0%;             
+							} 
+							100%{ 
+								margin-left: 0%;             
+							}
+						} 
+					</style>
+
+				</div> 
+
+				<div class="col-lg-7">
+						<h3 class="mb-3"><strong>Điện thoại iPhone 11 Pro Max 512GB</strong></h3>
+						<p class="mb-3">
+							<div class="danh-gia-trung-binh mb-2">
+								<div class="w-100 d-flex text-center justify-content-star align-items-center"> 
+									<ul class="list-unstyled list-inline mb-0">
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li> 
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+									</ul>
+									<a href="#danh-gia-kh" style="font-size: 20px; color: rgb(0, 127, 240);margin-left:10px;">(Xem 80 đánh giá)</a>	
+								</div>
+							</div>
+							<del class="mx-2 font-weight-light" id="del-gia">40.990.000đ</del>
+							<span class="item_price mx-3 text-danger" id="span-gia">38.990.000 <span class="badge badge-danger"
+									style="font-size: 10px; vertical-align: top;margin-top:5px;">đ</span></span>
+						
+							<span class="label-tra-gop">Trả góp 0%</span> 
+
+							<div class="opstion w-100">
+								<p>Bạn đang xem phiên bản: <span id="ops-text">512GB</span></p>
+								<div>
+									<button data-del="32.990.000đ">64GB - 30.990.000đ</button>
+									<button data-del="36.990.000đ">256GB - 34.990.000đ</button>
+									<button data-del="40.990.000đ">512GB - 38.990.000đ</button>
+								</div>
+							</div>
+
+							<style>
+								.opstion p{
+									font-size: 20px;
+								}
+
+								.opstion p span{
+									font-weight: bold;
+								}
+								
+								.opstion div{
+									font-size: 20px;
+									display: flex;
+									justify-content: start;
+									align-items: center;
+								}
+								
+								.opstion div button{
+									font-size: 16px;
+									width: 180px;
+									text-align: center;
+									margin: 5px 0px;
+									margin-right: 20px;
+									border: 2px solid transparent;
+									border-radius: 5px;
+								}
+								
+								.opstion div button:hover{
+									background-color:rgb(146, 140, 140);
+								}
+								
+								.btnClick{
+									border: 2px solid rgb(114, 7, 7) !important;
+								}
+
+							</style>
+
+							<script>
+								$(document).ready(() => {
+									$(".opstion button").click(function(){
+										var text = $(this).text().split(" - ");
+										$(".opstion button").each(function(){ 
+											$(this).removeClass("btnClick"); 
+										}) 
+										$(this).addClass("btnClick");
+										
+										$("#ops-text").text(text[0]);
+										$("#span-gia").text(text[1]);
+										$("#del-gia").text($(this).attr("data-del"));
+
+									})
+								}) 
+							</script>
+
+							<label class="lable-phi-ship">Miễn phí ship trên toàn quốc</label>
+						</p>
+					 <div class="card">
+						 <div class="card-header">
+							 <h2 class="text-left"><strong>KHUYẾN MÃI TRỊ GIÁ 2.000.000₫</strong></h2>
+							 <p>Giá và khuyến mãi dự kiến áp dụng đến 31/10</p>
+						 </div>
+						 <div class="card-body py-1"> 
+							 <ul class="khuyen-mai mb-0 list-unstyled">
+								 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Giảm giá 2,000,000đ</li>
+								 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Giảm giá 2,000,000đ khi tham gia thu cũ đổi mới <a href="#">Xem chi tiết</a></li>
+								 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Pin sạc dự phòng giảm 30% khi mua kèm</li>
+							 </ul>
+						 </div>
+						 <hr style="margin: 5px 0px;">
+						 <div class="card-body py-1"> 
+							 <ul class="khuyen-mai mb-0 list-unstyled">
+								 <li><i class="fa fa-gift" aria-hidden="true"></i><span class="text-danger">Tặng 500.000₫</span> mua hàng tại website thành viên, áp dụng khi mua Online tại Tp.HCM, Tp. Nha Trang, Tp. Phan Thiết và 1 số khu vực khác <a href="#">click xem chi tiết</a></li> 
+							 </ul>
+						 </div>
+					 </div>
+					<br></br>
+					 <button class="w-100 btn btn-primary mua-ngay"  style="background-color:  #ff823b !important; border: none;">
+						 <p class="display-text text-center text-white"><strong>MUA NGAY</strong></p>
+						 <span>Giao tận nơi hoặc nhận tại siêu thị</span>
+					 </button>
+					 <br></br>
+					 <div class="row w-100 ml-0">
+						 <div class="col-6 pl-0">
+							<button class="w-100 btn btn-primary mua-ngay">
+								<p class="display-text text-center text-white"><strong>MUA TRẢ GÓP 0%</strong></p>
+								<span>Thủ tục đơn giản</span>
+							</button>
+						 </div>
+						 <div class="col-6 pr-0">
+							<button class="w-100 btn btn-primary mua-ngay">
+								<p class="display-text text-center text-white"><strong>TRẢ GÓP 0% QUA THẺ</strong></p>
+								<span>Visa, Master, JCB</span>
+							</button>
+						</div>
+					 </div>
+ 
+					 
+
+				</div>
+			</div>
+			<!-- end thông tin nhanh -->
+
+			
+			<!-- Thông Số kỹ thuật -->
+			<h3 class="head-title">
+				Thông số kỹ thuật
+			</h3>
+			<ul class="thong-so w-100">
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Màn hình:</p>
+						<p class="col-8">OLED, 6.5", Super Retina XDR khác biệt hoàn toàn với những màn OLED thông thường</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Hệ điều hành:</p>
+						<p class="col-8">iOS 13 tạo nên một diện mạo mới, tối ưu tất cả ứng dụng</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Camera sau:</p>
+						<p class="col-8">3 camera 12 MP</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Camera trước:</p>
+						<p class="col-8">12 MP xử lý ma trận nhanh hơn gấp 6 lần so với thế hệ chip cũ</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">CPU:</p>
+						<p class="col-8">Apple A13 Bionic 6 nhân</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">RAM:</p>
+						<p class="col-8">4 GB</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Bộ nhớ trong:</p>
+						<p class="col-8">512 GB</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Thẻ SIM:</p>
+						<p class="col-8">1 Nano SIM & 1 eSIM, hỗ trợ 4G tiết kiệm được rất nhiều diện.</p>
+					</div>
+				</li>
+				<li class="thong-so-item">
+					<div class="row">
+						<p class="col-4">Dung lượng pin:</p>
+						<p class="col-8">3969 mAh, có sạc nhanh</p>
+					</div>
+				</li> 
+			</ul> 
+			<!-- // Thông số kỹ thuật -->
+
+			<!-- Đặc diểm nỗi bật -->
+			<h3 class="head-title">
+				Đặc điểm nổi bật của iPhone 11 Pro Max 512GB
+			</h3>
+			<div>
+				<p class="text-justify lead" style="color: black; font-size:18px;"><strong>Để tìm kiếm một chiếc <span class="text-primary">smartphone</span> có hiệu năng mạnh mẽ và có thể sử dụng mượt mà trong 2-3 năm tới thì không có chiếc máy nào xứng đang hơn chiếc <span class="text-primary">iPhone 11 Pro Max 512GB</span> mới ra mắt trong năm 2019 của Apple.</strong></p>
+
+				<h4 class="text-left mt-5" style="font-size: 20px; font-weight: bold;">Hiệu năng "đè bẹp" mọi đối thủ</h4>
+				<p style="color: black; text-align: justify;">
+					iPhone 11 Pro Max 512GB năm nay sử dụng chip <span class="text-primary">Apple A13 Bionic</span> mới nhất, nhanh và tiết kiệm điện hơn so với A12 năm ngoái.
+				</p>
+				<div class="w-100 text-center" >
+					<img src="Resources/myImages/game-iphone.jpg" class="w-50 my-res mx-auto" alt="">
+				</div> 
+				
+				<!-- Đặc điểm nổi bặt -->
+				<div class="coll" id="my-coll">
+					<p style="color: black; text-align: justify;">
+						Máy cũng sở hữu riêng một con chip AI Neural Engine sẽ phụ trách các tính năng xử lý hình ảnh như <span class="text-primary">Deep Fusion</span> và Night Mode.
+					</p>
+					<p style="color: black; text-align: justify;">Theo Apple thì đây là điện thoại thông minh có hiệu suất nhanh nhất thế giới ở thời điểm ra mắt.</p>
+	
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone2.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+					<p style="color: black; text-align: justify;">Cụ thể, hiệu năng của bộ vi xử lý A13 Bionic mới của Apple có sức mạnh vượt trội, nhanh hơn đến 20% và tiết kiêm
+						điện đến 40% so với chip A12, mang đến cho bạn trải nghiệm mượt mà, ổn định tất cả các tác vụ, đa nhiệm.</p>
+	
+						<div class="w-100 text-center" >
+							<img src="Resources/myImages/game-iphone3.jpg" class="w-50 my-res mx-auto" alt="">
+						</div>
+						<p style="color: black; text-align: justify;">Máy sẽ chạy trên phiên bản iOS 13 mới với nhiều tính năng tiện dụng giúp bạn khai thác chiếc iPhone của mình hiệu
+						quả hơn.</p>
+				
+					<h4 class="text-left mt-5" style="font-size: 20px; font-weight: bold;">Camera là điểm nhấn đáng chú ý</h4>
+					<p style="color: black; text-align: justify;">
+						Tại buổi ra mắt chiếc iPhone mới của mình, Apple dành rất nhiều thời gian để giới thiệu bộ 3 camera hoàn toàn
+						mới trên chiếc iPhone 11 Pro Max.
+					</p>
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone4.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+					<p style="color: black; text-align: justify;">Và quả thực camera chính là điểm nâng cấp đáng giá nhất trên chiếc iPhone 11 Pro Max.</p>
+
+					<p style="color: black; text-align: justify;">Chiếc iPhone này sẽ có 3 camera với 1 camera chính góc rộng 12 MP, 1 camera tele 12 MP và 1 camera <span class="text-primary">góc siêu rộng</span> 12 MP.</p>
+
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone5.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+
+					<p style="color: black; text-align: justify;">Các camera này đều có sự liên hệ mật thiết với nhau vì vậy khi người dùng chuyển đổi giữa các loại camera, thì độ sáng hay màu sắc của bức ảnh hầu như không thay đổi nhiều.</p>
+
+					<p style="color: black; text-align: justify;">Đây là điềm mà chưa một chiếc smartphone Android nào có nhiều camera hiện nay có thể làm tốt hơn iPhone 11 Pro Max.</p>
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone6.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+					<p style="color: black; text-align: justify;">Ngoài ra trên chiếc iPhone này còn có thêm chế độ chụp đêm Night Mode giúp cải thiện rõ rệt chất lượng chụp ảnh trong điều kiện thiếu sáng của những chiếc iPhone.</p>
+
+					
+
+					<h4 class="text-left mt-5" style="font-size: 20px; font-weight: bold;">Pin lớn thoải mái cả ngày</h4>
+					<p style="color: black; text-align: justify;">
+						iPhone 11 Pro Max 512GB sở hữu viên pin có dung lượng lớn hơn 25% so với <span class="text-primary">iPhone Xs Max</span> năm ngoái nhờ vậy mà thời gian sử dụng pin cũng được cải thiện đáng kể.
+					</p>
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone7.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+
+					<p style="color: black; text-align: justify;">
+						Nếu bạn chỉ sử dụng ở mức bình thường, ít chơi game thì chiếc iPhone này hoàn toàn có thể đáp ứng lên tới 2 ngày sử dụng cho bạn. Còn nếu nhu cầu nhiều hơn thì việc đáp ứng với cường độ cao từ sáng tới tối cũng không phải là điều gì quá khó khăn với chiếc điện thoại pin trâu này.
+					</p>
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone8.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+
+					
+
+					<h4 class="text-left mt-5" style="font-size: 20px; font-weight: bold;">Vẫn còn nhiều cải tiến mà bạn nên biết</h4>
+					<p style="color: black; text-align: justify;">
+						iPhone 11 Pro Max đã giải quyết được tình trạng để lại nhiều mồ hôi và dấu vân tay trong quá trình sử dụng trên những chiếc iPhone đời trước với mặt lưng được hoàn thiện dưới dạng kính mờ.
+					</p>
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone9.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+
+					
+					<p style="color: black; text-align: justify;">
+						Theo Apple thì kính mà hãng sử dụng trên chiếc iPhone này là loại kính bền nhất từ trước tới nay từng được sử dụng cho smartphone.
+					</p>
+					<div class="w-100 text-center" >
+						<img src="Resources/myImages/game-iphone10.jpg" class="w-50 my-res mx-auto" alt="">
+					</div>
+
+
+					</div>
+					<div class="w-100 d-flex justify-content-center">
+					<button id="btnXemThem" class="btn btn-primary mt-5" style="border-radius: 5px;font-size:16px;">
+						Xem thêm
+					</button> 
+				</div>
+				<!-- Đặc điểm nổi bặt -->
+
+
+				<!-- Facebook -->
+				<div class="face">
+					<button class="btn btn-primary" style="border-radius: 5px;">
+						<i class="fa fa-thumbs-up" aria-hidden="true" style="font-size: 16px;"></i>
+						<strong style="font-size:16px">Like</strong>
+						<span style="font-size:14px">100</span>
+					</button>
+					<button class="btn btn-primary ml-3" style="border-radius: 5px;">
+						<i class="fa fa-share-alt" aria-hidden="true" style="font-size: 16px;"></i>
+						<strong style="font-size:16px">Share</strong> 
+					</button>
+				</div>
+				<!-- End facebook -->
+
+
+				<!-- Nhan xet -->
+				<div class="nhan-xet mt-5">
+					<div class="nhan-xet-content w-60 d-flex justify-content-between align-items-center py-5 pl-3" style="background-color:#eee;">
+						<p class="lead my-pi" style="font-size:18px;margin-bottom:0px;color: black;width:61%;">Bài viết này có hữu ích cho Bạn không?</p>
+						<div class="smile text-center a-nhan-xet text-center px-3 w-25"> 
+							<i class="far fa-smile-wink" style="font-size: 36px; color: blue;"></i> 
+							<a href="javascript:void(0)" ><p  style="color: black; font-weight: bold; font-size: 16px;" class="mb-0 my-hi text-center">Hữu ích</p></a>
+						</div>
+						<div class="smile text-center a-nhan-xet text-center px-3 w-25">  
+							<i class="far fa-angry" style="font-size: 36px; color: rgb(116, 9, 50);"></i>
+							<a href="javascript:void(0)" ><p  class="mb-0 last my-hi text-center" style="color: black; font-weight: bold; font-size: 16px; ">Không hữu ích</p></a>
+						</div>
+					</div>
+				</div>
+				<!-- End nhan xet -->
+
+
+				<!-- Danh gia -->
+				<h2 id="danh-gia-kh" class="head-title">
+					KHÁCH HÀNG ĐÁNH GIÁ
+				</h2>
+				<div class="danh-gia w-100" style="background-color:#eee;">
+					<div class="danh-gia-sao w-100" style="padding: 20px;"> 
+						<h3 class="my-danh-gia">Đánh giá</h3>
+						<div class="row">
+							<div class="col-4 d-flex flex-column text-center align-items-center" style="border-right: 1px solid gray;">
+								<span style="font-size: 50px; color: black;">4</span>
+								<ul class="list-unstyled list-inline">
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li> 
+									<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+								</ul>
+								<span style="font-size: 20px; color: black;">80 đánh giá</span>	
+							</div>
+							<div class="col-8 d-flex flex-column justify-content-center">
+								<div class="my-line">
+									<ul class="list-unstyled list-inline mb-0">
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>  
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>  
+									</ul>
+									<div class="progress w-50">
+										<div class="progress-bar bg-warning" style="width:80%"></div>
+									</div>
+								</div>
+								<div class="my-line">
+									<ul class="list-unstyled list-inline mb-0">
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li> 
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+									</ul>
+									<div class="progress w-50">
+										<div class="progress-bar bg-warning" style="width:60%"></div>
+									</div>
+								</div>
+								<div class="my-line">
+									<ul class="list-unstyled list-inline mb-0">
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+									</ul>
+									<div class="progress w-50">
+										<div class="progress-bar bg-warning" style="width:15%"></div>
+									</div>
+								</div>
+								<div class="my-line">
+									<ul class="list-unstyled list-inline mb-0">
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+									</ul>
+									<div class="progress w-50">
+										<div class="progress-bar bg-warning" style="width:5%"></div>
+									</div>
+								</div>
+								<div class="my-line">
+									<ul class="list-unstyled list-inline mb-0">
+										<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+										<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+									</ul>
+									<div class="progress w-50">
+										<div class="progress-bar bg-warning" style="width:5%"></div>
+									</div>
+								</div> 
+							</div>
+						</div>
+						<hr>
+
+						<h3 class="my-binh-luan text-left" style="font-size: 26px; margin-top: 50px;">
+							Bình luận
+						</h3>
+
+						<div class="binh-luan mt-5">
+							<div class="binh-luan-header d-flex">
+								<div class="icon-kh mr-3 d-flex align-items-center">
+									<span>TT</span>
+								</div>
+								<div class="thong-tin-kh" style="width: 250px;">
+									<p style="color: black;">Thái Trí</p>
+									<p>Nhận xét vào 19 tháng 10, 2020</p>
+								</div>
+							</div>
+							<div class="my-line mb-4" style="justify-content: start">
+								<ul class="list-unstyled list-inline mb-0" style="margin-left:65px;">
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>  
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>  
+								</ul> 
+							</div>
+							<span class="conment" style="font-size: 14px; font-weight: bold;">
+								Cực kì hài lòng
+							</span>
+							<p style="padding-top:5px;">Mình vừa nhận máy được vào hôm😘, trải nghiệm máy rất nhạy, nhanh hình thức máy đẹp👌, camera k chê vào đâu được😍, tuy nhiên ở cửa hàng mình nhận máy phục vụ chưa được hài lòng lắm😁😁😁.</p>
+
+							<div class="cocntainer-img d-flex justify-content-star align-items-center">
+								<img src="Resources/myImages/binh-luan1.png" alt="" class="w-25 mr-3" style="max-height: 268px;">
+								<img src="Resources/myImages/binh-luan2.png" alt="" class="w-25 mr-3" style="max-height: 268px;">
+								<img src="Resources/myImages/binh-luan3.png" alt="" class="w-25 mr-3" style="max-height: 268px;">
+							</div>
+							<div style="margin-top:20px;">
+								<span style="font-size: 14px;margin-right: 20px;" id="my-binh-luan-coll">Thảo luận</span>
+								<a href="#"><span style="font-size: 14px;"><i class="fa fa-thumbs-o-up mr-1" aria-hidden="true"></i>Hữu ích (13)</span></a>
+							</div>
+							<div id="my-comment" class="w-100">
+								<textarea class="form-control" rows="5" placeholder="Bình luận của tôi..." style="font-size:15px;"></textarea>
+								<div class="foot w-100 d-flex justify-content-between px-3 py-1" style="background-color: white;">
+									<div class="text-primary" style="font-size:16px;"><a href="#"><i class="fa fa-camera text-primary mr-2" aria-hidden="true"></i>Gửi ảnh</a></div> 
+									<button class="btn btn-primary px-2" >GỬI</button>
+								</div>
+							</div>
+						</div>
+						
+						<hr>
+
+						<div class="binh-luan mt-5">
+							<div class="binh-luan-header d-flex">
+								<div class="icon-kh mr-3 d-flex align-items-center">
+									<span style="background-color:rgb(6, 2, 70); color: white;">TP</span>
+								</div>
+								<div class="thong-tin-kh">
+									<p style="color: black;">Trần Phương</p>
+									<p>Nhận xét vào 29 tháng 7, 2020</p>
+								</div>
+							</div>
+							<div class="my-line mb-4" style="justify-content: start">
+								<ul class="list-unstyled list-inline mb-0" style="margin-left:65px;">
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star my-act" aria-hidden="true"></i></li>  
+									<li><i class="far fa-star star-font" aria-hidden="true"></i></i></li>
+								</ul> 
+							</div>
+							<span class="conment" style="font-size: 14px; font-weight: bold;">
+								Cực kì hài lòng
+							</span>
+							<p style="padding-top:5px;">
+								vừa nhận được máy chiều nay, đẹp, xịn, máy chạy cực đã😁😁😁. Hiện tại mình rất hài lòng về sản phẩm👌👌👌, nếu dùng tốt trong thời gian tới sẽ mua thêm 1 chiếc tặng thằng em😘.</p>
+
+							<div class="cocntainer-img d-flex justify-content-star align-items-start">
+								<img src="Resources/myImages/binh-luan4.png" alt="" class="w-25 mr-3" style="max-height: 268px;">
+								<img src="Resources/myImages/binh-luan5.png" alt="" class="w-25 mr-3" style="max-height: 268px;"> 
+							</div>
+							<div style="margin-top:20px;">
+								<span style="font-size: 14px;margin-right: 20px;" id="my-binh-luan-coll2">Thảo luận</span>
+								<a href="#"><span style="font-size: 14px;"><i class="fa fa-thumbs-o-up mr-1" aria-hidden="true"></i>Hữu ích (7)</span></a>
+							</div>
+							<div id="my-comment2" class="w-100">
+								<textarea class="form-control" rows="5" placeholder="Bình luận của tôi..." style="font-size:15px;"></textarea>
+								<div class="foot w-100 d-flex justify-content-between px-3 py-1" style="background-color: white;">
+									<div class="text-primary" style="font-size:16px;"><a href="#"><i class="fa fa-camera text-primary mr-2" aria-hidden="true"></i>Gửi ảnh</a></div> 
+									<button class="btn btn-primary px-3" >GỬI</button>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+						<div style="margin-top:70px;">
+							<h2 class="text-left" style="font-size: 26px;margin-bottom: 20px;">Phản hồi của tôi</h2>
+							
+							<form action="">
+								<div class="my-line mb-4" style="justify-content: start">
+									<ul class="list-unstyled list-inline mb-0 my-comment-start ml-0"> 
+										<li><a href="javascript:void(0)" data-id="1"><i class="far fa-star"></i></a></li>
+										<li><a href="javascript:void(0)" data-id="2"><i class="far fa-star"></i></a></li>
+										<li><a href="javascript:void(0)" data-id="3"><i class="far fa-star"></i></a></li>
+										<li><a href="javascript:void(0)" data-id="4"><i class="far fa-star"></i></a></li>
+										<li><a href="javascript:void(0)" data-id="5"><i class="far fa-star"></i></a></li> 
+									</ul>  
+									<span id="date-time" style="color: #777; font-size: 14px; margin-left:15px; line-height: 14px; margin-top: 10px;"></span>
+								</div>
+								<textarea class="form-control" rows="5" placeholder="Mời bạn để lại bình luận về sản phẩm..." style="font-size:15px;"></textarea>
+								<div class="foot w-100 d-flex justify-content-between px-3 py-1" style="background-color: white;">
+									<div class="text-primary" style="font-size:16px;"><a href="#"><i class="fa fa-camera text-primary mr-2" aria-hidden="true"></i>Gửi ảnh</a></div> 
+									<button class="btn btn-primary px-2" type="submit" >GỬI</button>
+								</div>
+							</form>
+						</div>
+						
+						<!-- Chon sao script -->
+						<script>
+							var date = new Date();
+							var res = "Ngày " + date.getDate() + " tháng " + (date.getMonth() + 1) + ", " + date.getFullYear();
+							$('#date-time').text(res);
+
+							$(document).ready(function() {
+								$(".my-comment-start li a").click(function() {
+									var soSao = $(this).attr("data-id");
+									var dem = 0;
+									$(".my-comment-start li a i").each(function() {
+										if(dem < soSao) {
+											$(this).removeClass("far").addClass("fa");
+										} else {
+											$(this).removeClass("fa").addClass("far");
+										}											
+										dem++;
+									})
+								})
+							})
+							
+						</script>
+
+
+					</div>
+				</div>
+				<!-- End danh gia -->  
+
+				<script>
+					
+					$(document).ready(()=>{
+						$('#my-coll').hide();
+						$('#btnXemThem').text('Xem thêm');
+						$('#my-comment').hide();
+						$('#my-comment2').hide();
+					})
+
+					$('#my-binh-luan-coll').click(()=>{
+						$('#my-comment').slideToggle(400);
+					})
+					$('#my-binh-luan-coll2').click(()=>{
+						$('#my-comment2').slideToggle(400);
+					})
+
+					$('#btnXemThem').click(()=>{
+						$('#my-coll').slideToggle(400);
+						let text = $('#btnXemThem').text(); 
+						if(text=="Xem thêm"){ 
+							$('#btnXemThem').text("Thu gọn"); 
+						}
+						else{ 
+							$('#btnXemThem').text('Xem thêm');  
+						}
+						
+					})
+				</script>
+
+
+			</div>
+			<!-- // Đặc điểm nổi bật -->
+
+
+			<!-- Danh gia khach hang -->
+			<h2 id="danh-gia-kh" class="head-title">
+				CÁC SẢN PHẨM NỔI BẬT KHÁC
+			</h2>
+			<!-- Đánh giá khách hàng -->
+
+			<!-- Sản phẩm khác -->
+			<div class="row">
+				<div class="col-3">
+					<div class="san-pham">
+						<div class="card p-2" style="width: 100%;">
+							<a href="#">
+								<div class="grid" style="background-color: transparent !important; ">
+									<figure class="effect-apollo" style="background-color: transparent !important;">
+										<img src="Resources/myImages/them1.png" alt="Sản phẩm thêm 1" class="w-100"> 
+									</figure>
+								</div>
+								<h4 style="min-height: 20px; font-size: 16px;text-align: center;">
+									<a href="chitietsanpham.html" class="ten">Điện thoại Xiaomi Redmi 9</a>
+								</h4>
+								<h5 style="font-size: 16px; text-align:center; color: red;">3.790.000<span class="badge vnd text-white">₫</span></h5>
+								<h6 class="text-center"><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+							</a>
+						</div>
+						<div class="wrap"></div>
+					</div>
+				</div> 
+				<div class="col-3">
+					<div class="san-pham">
+						<div class="card p-2" style="width: 100%;">
+							<a href="#">
+								<div class="grid" style="background-color: transparent !important; ">
+									<figure class="effect-apollo" style="background-color: transparent !important;">
+										<img src="Resources/myImages/them2.png" alt="Sản phẩm thêm 2" class="w-100"> 
+									</figure>
+								</div>
+								<h4 style="min-height: 20px; font-size: 16px;text-align: center;">
+									<a href="chitietsanpham.html" class="ten">Điện thoại Samsung Galaxy</a>
+								</h4>
+								<h5 style="font-size: 16px; text-align:center; color: red;">5.290.000<span class="badge vnd text-white">₫</span></h5>
+								<h6 class="text-center"><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+							</a>
+						</div>
+						<div class="wrap"></div>
+					</div>
+				</div> 
+				<div class="col-3">
+					<div class="san-pham">
+						<div class="card p-2" style="width: 100%;">
+							<a href="#">
+								<div class="grid" style="background-color: transparent !important; ">
+									<figure class="effect-apollo" style="background-color: transparent !important;">
+										<img src="Resources/myImages/them3.png" alt="Sản phẩm thêm 3" class="w-100"> 
+									</figure>
+								</div>
+								<h4 style="min-height: 20px; font-size: 16px;text-align: center;">
+									<a href="chitietsanpham.html" class="ten">Điện thoại Xiaomi Redmi Note 8</a>
+								</h4>
+								<h5 style="font-size: 16px; text-align:center; color: red;">5.190.000<span class="badge vnd text-white">₫</span></h5>
+								<h6 class="text-center"><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+							</a>
+						</div>
+						<div class="wrap"></div>
+					</div>
+				</div> 
+				<div class="col-3">
+					<div class="san-pham">
+						<div class="card p-2" style="width: 100%;">
+							<a href="#">
+								<div class="grid" style="background-color: transparent !important; ">
+									<figure class="effect-apollo" style="background-color: transparent !important;">
+										<img src="Resources/myImages/them4.png" alt="Groovy Apparel" class="w-100"> 
+									</figure>
+								</div>
+								<h4 style="min-height: 20px; font-size: 16px;text-align: center;">
+									<a href="chitietsanpham.html" class="ten">Điện thoại Samsung Galaxy Note</a>
+								</h4>
+								<h5 style="font-size: 16px; text-align:center; color: red;">32.990.000<span class="badge vnd text-white">₫</span></h5>
+								<h6 class="text-center"><a href="chitietsanpham.html" class="xem-them">Xem thêm</a></h6>
+							</a>
+						</div>
+						<div class="wrap"></div>
+					</div>
+				</div> 
+			</div>  
+			<!-- Sản phẩm khác -->
+
+		</div>
+	</div> 
+
+	<!-- End Render body --> 
+	<!-- ********************************************************************************************************* -->
+
+
+
+	<!-- Footer -->
+	<div class="footer pt-4">
+		<div class="row">
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">HỖ TRỢ KHÁCH HÀNG</span>
+					<br> 
+					<li>
+						<a href="#">
+							<span class="hotline">Chăm sóc khách hàng: 1900-6035 </span> (1000đ/phút , 8-21h kể cả T7, CN)
+						</a>
+					</li>
+					<li><a href="#">Các câu hỏi thường gặp</a></li>
+					<li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
+					<li><a href="#">Hướng dẫn đặt hàng</a></li>
+					<li><a href="#">Hướng dẫn mua trả góp</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">VỀ CHÚNG TÔI</span>
+					<br> 
+					<li><a href="gioithieu.html">Giới thiệu</a></li>
+					<li><a href="#">Chính sách bảo mật thanh toán</a></li>
+					<li><a href="#">Chính sách bảo mật thông tin cá nhân</a></li>
+					<li><a href="#">Chính sách giải quyết khiếu nại</a></li>
+					<li><a href="#">Điều khoản sử dụng</a></li>
+					<li><a href="#">Bán hàng doanh nghiệp</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<div>
+					<span class="my-caption-f">PHƯƠNG THỨC THANH TOÁN</span>
+					<br> 
+					<div class="cols">
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p1.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p2.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p3.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p4.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p5.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+						<div class="cols-2">
+							<a href="#">
+								<img src="Resources/myImages/p6.png" class="my-icon-f" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-3 my-mb">
+				<ul>
+					<span class="my-caption-f">ỨNG DỤNG TRÊN ĐIỆN THOẠI</span>
+					<br> 
+					<div class="my-ap">
+						<div class="col-12 my-app-img">
+							<a href="#" class="d-block">
+                                <img src="Resources/myImages/app1.png" style="width: 230px;" class="my-icon-f" alt="">
+                            </a>
+						</div>
+						<div class="col-12 my-app-img mt-2">
+							<a href="#">
+								<img src="Resources/myImages/app2.png" style="width: 230px;" class="my-icon-f" alt="">
+							</a>
+						</div>
+					</div>
+				</ul>
+			</div>
+
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!-- //Footer -->
+
+	<!-- Font icon facebook, instagram, googleapis, twitter, youtube vi fontawesome khong dung duoc -->
+	<link rel="stylesheet" href="Resources/fontawesome/myFont/icofont/icofont.min.css">
+	
+	<!--Địa chỉ-->
+	<div class="my-footer">
+		<p class="my-dia-chi"><span>Địa chỉ văn phòng:</span> Khu phố 6, Phường Linh Trung, Quận Thủ Đức, TP.Hồ Chí Minh.
+		</p>
+		<p class="my-dia-chi mb-3">Nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại
+			văn phòng hoặc trung tâm xử lý đơn hàng.</p>
+		<div class="row">
+			<div class="col-6 pr-0">
+				<p style="color: #ffffff !important;" class="my-copy">© 2020 Design by <a href="javascript:void(0)"
+						target="=_blank" style="color: #ff0000 !important;">
+						Huỳnh Ngọc Sơn </a></p>
+			</div>
+			<div class="col-6 pr-0">
+				<div>
+					<ul class="social-icons d-flex justify-content-end align-items-center">
+						<li>
+							<a href="#" class="facebook" title="Facebook">
+								<i class="icofont-facebook my-facebook my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="twitter" title="Twitter">
+								<i class="icofont-twitter my-twitter my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="googleplus" title="Google">
+								<i class="icofont-google-plus my-google my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="instagram wthree" title="Instagram">
+								<i class="icofont-instagram my-instagram my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="youtube" title="youtube">
+								<i class="icofont-youtube-play my-youtube my-icon-f" aria-hidden="true"></i> 
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div> 
+	<!--// Địa chỉ-->
+  
+
+	<!-- Chatbox --> 
+	<div>
+		<div class="message-dialog message-hiden">
+			<div class="mess-header d-flex align-items-center" style="box-shadow: 0 1px 1px rgb(224, 224, 224);">
+				<div class="mr-auto ml-3 mt-3 d-flex align-items-center">
+					<img src="Resources/myImages/icon-amazon.png" alt="" class="mr-1" style="width:30px; height: 30px; border-radius:50%;">
+					<span style="font-size: 18px;">Hỗ trợ online</span>
+				</div>
+				<div class="ml-0 mr-3 mt-1">
+					<span class="icon-ho-top text-primary" style="cursor: pointer;"><i class="fas fa-video"></i></span>
+					<span class="icon-ho-top text-primary" style="cursor: pointer;"><i class="fa fa-phone" aria-hidden="true"></i></i></span>
+					<span class="message-minimize icon-ho-top text-primary" style="cursor: pointer;">X</span>
+				</div>
+			</div> 
+			<div class="message-content px-2" style="overflow: auto;">
+
+				<div class="message-text d-flex justify-content-start mt-3">
+					<div style="width: 35px;"></div>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; border-bottom-left-radius: 0;background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px; margin-bottom:0;"> 
+								Cảm ơn bạn đã cho phép chúng tôi cơ hội để hỗ trợ bạn.	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="message-text d-flex justify-content-start mt-1">
+					<div style="width: 35px;"></div>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; border-bottom-left-radius: 0;border-top-left-radius: 0;background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px;" class="mb-0"> 
+								Cảm ơn bạn đã cho phép chúng tôi cơ hội để hỗ trợ bạn.	<br>
+								Chào mừng bạn đến cửa hàng, Tìm những gì bạn thích ... ❤	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="message-text d-flex justify-content-start mt-1">
+					<a href="javascript:void(0)" class="mt-auto"><img src="Resources/myImages/icon-amazon.png" class="mt-auto mr-2" alt=""style="width:30px;height:auto; border-radius:50%;"></a>
+					<div class="message-comment w-75" >
+						<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px;border-top-left-radius: 0; background-color:rgb(224, 224, 224)">
+							<p style="color: black !important; border:none; font-size:14px;" class="mb-0">
+								Tất cả các sản phẩm của chúng tôi là trong kho.	<br>
+								Dịch vụ khách hàng Thời gian trực tuyến: 9 xuất 00 AM-18 00 00.❤	<br>
+								Giới thiệu về Thời gian giao hàng Giao hàng 1-2 ngày, Nhận trong 7-15 ngày.❤ 	<br>
+							</p>
+						</div>
+					</div>
+				</div>
+				<p class="mess-date text-center lead my-show-chat2" >17:50, 21 Tháng 10, 2020</p> 
+	
+				<div class="message-text justify-content-start mt-1 mess-hiden my-hiden my-show-chat1" style="position: relative; height: auto;">
+					<div style="width: 400px;">
+						<div class="message-comment w-75" style="margin-left: 60px;" >
+							<div class="mess-one pt-1 pl-4 pr-4 pb-1" style="border-radius: 18px; background-color:rgb(224, 224, 224)">
+								<p style="color: black !important; border:none; font-size:14px;" id="mess-hiden-text" class="mb-0">
+									 
+								</p>
+							</div>
+						</div> 
+					</div> 
+
+					<a href="javascript:void(0)" class="mt-auto" style="position: absolute; bottom: 0; right: -8px;">
+						<img src="Resources/myImages/user-s.png" class="mt-auto mr-2" alt=""style="width:30px;height:auto; border-radius:50%;">
+					</a>	
+				</div>
+
+				<p class="mess-date text-center lead mess-hiden my-hiden my-show-chat2" style="clear: both;" >17:50, 21 Tháng 10, 2020</p> 
+
+				<div class="clearfix"></div>
+
+				<script>
+					$(window).ready(function(){
+							$("#btn-send-mess").click(function() {
+								var date = new Date();
+								var text = $("#mess-text-current").val();
+								$("#mess-text-current").val("");
+								
+								if( text != "") {
+									$(".my-show-chat1").removeClass("my-hiden").addClass("d-flex");
+									$(".my-show-chat2").removeClass("my-hiden").text(date.getMinutes() + ":" + date.getHours() + ", " + date.getDate() + " Tháng " + (date.getMonth() + 1) + ", " + date.getFullYear());
+									$("#mess-hiden-text").text(text);
+
+								}
+
+						})
+					})
+				</script>
+
+			</div>
+			<div class="message-footer mt-auto d-flex px-2 justify-content-center align-items-center" style="height: 50px;box-shadow: 0 -1px 1px rgb(224, 224, 224);;">
+				<a href="javascript:void(0)" class="icon-ho ml-2"><i class="fa fa-camera text-primary" aria-hidden="true" style="font-size: 30px;"></i></a>
+				<a href="javascript:void(0)" class="icon-ho ml-2"><i class="fa fa-paperclip" aria-hidden="true" style="font-size: 30px;"></i></a>
+				<input type="text" class="mx-1" style="width: 220px; padding:5px 10px;margin-bottom: 0px;background-color: rgb(224, 224, 224);color: black;font-size:14px; border-radius: 20px;" placeholder="Nhập nội dung bạn muốn gửi..." id="mess-text-current">
+				<a href="javascript:void(0)" class="icon-ho ml-2" id="btn-send-mess"><i class="fa fa-paper-plane text-primary" aria-hidden="true" style="font-size: 30px"></i></a>  
+			</div>
+		</div>
+		<div class="message-icon">
+			<i class="far fa-comment-dots"></i>
+		</div> 
+	</div>
+	<!-- Lên đầu trang -->
+	<a href="#" class="len-dau-trang">  
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a> 
+	<!--//Chatbox --> 
+
+</body> 
+</html>
